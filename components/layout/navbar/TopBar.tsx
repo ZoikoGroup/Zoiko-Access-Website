@@ -24,7 +24,7 @@ export default function TopBar() {
       </button>
 
       <Link
-        href="#"
+        href="/how-it-works"
         className="inline-flex items-center gap-2 rounded-md bg-[#4267D5] px-6 py-3 text-[13px] font-semibold text-white transition-opacity hover:opacity-90"
       >
         How it works
