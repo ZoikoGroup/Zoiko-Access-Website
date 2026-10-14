@@ -1,0 +1,10 @@
+export { default as HowItWorksHero } from "./HowItWorksHero";
+export { default as FourStepsOverview } from "./FourStepsOverview";
+export { default as Step1Location } from "./Step1Location";
+export { default as Step2Information } from "./Step2Information";
+export { default as Step3NextStep } from "./Step3NextStep";
+export { default as Step4Status } from "./Step4Status";
+export { default as SafetyAndPrivacy } from "./SafetyAndPrivacy";
+export { default as OnwardJourney } from "./OnwardJourney";
+export { default as HowItWorksFaq } from "./HowItWorksFaq";
+export { default as HowItWorksCta } from "./HowItWorksCta";

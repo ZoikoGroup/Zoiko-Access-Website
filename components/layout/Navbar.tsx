@@ -63,7 +63,7 @@ export default function Navbar() {
             </button>
 
             <Link
-              href="#"
+              href="/how-it-works"
               className="inline-flex items-center gap-2 rounded-md bg-[#4267D5] px-6 py-3 text-[13px] font-semibold text-white transition-opacity hover:opacity-90"
             >
               How it works
@@ -144,7 +144,7 @@ export default function Navbar() {
               English
             </button>
             <Link
-              href="#"
+              href="/how-it-works"
               className="inline-flex w-fit items-center gap-2 rounded-md bg-[#4267D5] px-6 py-3 text-[14px] font-semibold text-white"
             >
               How it works
