@@ -43,7 +43,7 @@ export default function HomeHero() {
         className="pointer-events-none select-none object-cover"
       />
 
-      <div className="relative mx-auto grid max-w-[1440px] grid-cols-1 items-center gap-10 px-6 pb-0 pt-14 sm:px-10 lg:min-h-[647px] lg:grid-cols-[1.1fr_1fr] lg:gap-6 lg:px-[138px] lg:py-0">
+      <div className="relative mx-auto grid max-w-[1440px] grid-cols-1 items-center gap-10 px-6 pb-0 pt-14 sm:px-10 lg:min-h-[647px] lg:grid-cols-[1.1fr_1fr] lg:gap-6 lg:py-0">
         <motion.div
           variants={container}
           initial="hidden"
@@ -99,12 +99,22 @@ export default function HomeHero() {
           </motion.div>
         </motion.div>
 
+        {/* Right side container with enlarged vector and doctor illustrations */}
         <motion.div
           variants={imageRise}
           initial="hidden"
           animate="show"
           className="relative mx-auto h-[420px] w-full max-w-[560px] sm:h-[520px] lg:h-[647px] lg:max-w-none"
         >
+          {/* Vector Background spanning larger on the right side */}
+          <Image
+            src="/home/vector.png"
+            alt=""
+            fill
+            sizes="(min-width: 1024px) 60vw, 100vw"
+            className="pointer-events-none select-none object-contain object-right scale-[1.35] lg:scale-[1.5] translate-x-8 lg:translate-x-16"
+          />
+          {/* Secondary Elements Graphic */}
           <Image
             src="/home/2.png"
             alt=""
@@ -112,6 +122,7 @@ export default function HomeHero() {
             sizes="(min-width: 1024px) 45vw, 100vw"
             className="pointer-events-none select-none object-contain object-bottom"
           />
+          {/* Doctor Portrait Image */}
           <Image
             src="/home/1.png"
             alt="Smiling doctor in a white coat holding a tablet"
