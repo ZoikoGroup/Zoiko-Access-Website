@@ -13,7 +13,6 @@ import {
 } from "@/components/how-it-works";
 
 export const metadata: Metadata = {
-  title: "How Zoiko Access Works | Healthcare Access & Navigation",
   description:
     "Learn how Zoiko Access helps people understand healthcare options and coordinate supported next steps across four transparent stages.",
 };

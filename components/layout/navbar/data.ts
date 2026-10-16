@@ -69,10 +69,10 @@ export type MenuItem = {
   imageAlt: string;
 };
 
-const l = (label: string, icon: LucideIcon): MenuLink => ({
+const l = (label: string, icon: LucideIcon, href = "#"): MenuLink => ({
   label,
   icon,
-  href: "#",
+  href,
 });
 
 export const MENU: readonly MenuItem[] = [
@@ -85,19 +85,19 @@ export const MENU: readonly MenuItem[] = [
       [
         l("Understand your options", Info),
         l("How Zoiko Access works", BookOpen),
-        l("Explore healthcare", Heart),
-        l("Care pathways", Map),
+        l("Explore healthcare", Heart, "/healthcare-services"),
+        l("Care pathways", Map, "/care-pathways"),
       ],
       [
         l("Find services", Search),
         l("Find care", Heart),
-        l("Healthcare professionals", BookOpen),
-        l("Locations and availability", MapPin),
+        l("Healthcare professionals", BookOpen, "/healthcare-professionals"),
+        l("Locations and availability", MapPin, "/locations-availability"),
       ],
       [
         l("Next steps", ClipboardList),
         l("Book or request care", CalendarDays),
-        l("How referrals work", FileText),
+        l("How referrals work", FileText, "/how-referrals-work"),
         l("Talk to support", MessageCircle),
       ],
     ],

@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Zoiko Access",
+  title: "Zoiko Access | Healthcare Access & Navigation Platform",
   description: "Zoiko Access | Home Page",
 };
 
