@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
-import { FOOTER_GROUPS } from "./data";
+import { FOOTER_GROUPS, FOOTER_LINK_HREFS } from "./data";
 
 export default function FooterLinkGrid() {
   return (
@@ -32,7 +32,7 @@ export default function FooterLinkGrid() {
                   {group.links.map((link) => (
                     <li key={link}>
                       <Link
-                        href="#"
+                        href={FOOTER_LINK_HREFS[link] ?? "#"}
                         className="group flex items-center justify-between py-3 text-[15px] text-[#4B5563] transition-colors hover:text-[#4267D5]"
                       >
                         {link}
