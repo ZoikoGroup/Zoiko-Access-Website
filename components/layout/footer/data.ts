@@ -167,6 +167,13 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
   },
 ] as const;
 
+export const FOOTER_LINK_HREFS: Readonly<Record<string, string>> = {
+  "Explore healthcare services": "/healthcare-services",
+  "Care pathways explained": "/care-pathways",
+  "Healthcare professionals": "/healthcare-professionals",
+  "Locations and availability": "/locations-availability",
+};
+
 export const OFFICES = [
   {
     label: "HEADQUARTERS",
