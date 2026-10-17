@@ -18,13 +18,13 @@ const CARDS = [
     title: "Include the right support",
     text: "Caregiver permissions matter",
     icon: Users,
-    offset: "ml-0 sm:ml-12 lg:ml-[60px]",
+    offset: "ml-0 sm:ml-[35px]",
   },
   {
     title: "Know what happens next",
     text: "Confirmed status, where supported",
     icon: MessageSquareText,
-    offset: "ml-0 sm:ml-5 lg:ml-[20px]",
+    offset: "ml-0 sm:ml-[10px]",
   },
 ] as const;
 
@@ -36,25 +36,25 @@ const POINTS = [
 
 export default function PatientsCaregivers() {
   return (
-    <section className="w-full bg-[#f8fafc] font-sans">
-      <div className="mx-auto grid max-w-[1440px] grid-cols-1 items-center gap-12 px-6 py-14 sm:px-10 lg:grid-cols-[0.95fr_1fr] lg:gap-[70px] lg:px-[60px] lg:py-[80px]">
-        <div className="rounded-[32px] bg-[#E8F2FD] p-5 sm:p-8 lg:px-[60px] lg:py-[60px]">
-          <ul className="flex flex-col gap-4 sm:gap-5">
+    <section className="w-full bg-white">
+      <div className="mx-auto grid max-w-[1440px] grid-cols-1 items-center gap-12 px-6 py-14 sm:px-10 lg:grid-cols-[minmax(0,519fr)_minmax(0,726fr)] lg:gap-x-[75px] lg:px-[60px] lg:py-20">
+        <div className="rounded-[28px] bg-[#E8F2FD] px-5 py-8 sm:px-[35px] sm:py-[35px]">
+          <ul className="flex flex-col gap-4">
             {CARDS.map((card) => {
               const Icon = card.icon;
               return (
                 <li
                   key={card.title}
-                  className={`flex w-full max-w-[420px] items-center gap-5 rounded-[20px] border border-[#DCE6F3] bg-white px-6 py-6 shadow-[0_8px_24px_rgba(35,50,122,0.06)] ${card.offset}`}
+                  className={`flex min-h-[92px] w-full max-w-[350px] items-center gap-4 rounded-xl border border-[#DCE6F3] bg-white px-5 ${card.offset}`}
                 >
-                  <span className="flex h-[56px] w-[56px] shrink-0 items-center justify-center rounded-xl bg-[#EEEAFE] text-[#6D4AD8]">
-                    <Icon className="h-6 w-6" aria-hidden="true" />
+                  <span className="flex h-[46px] w-[46px] shrink-0 items-center justify-center rounded-[10px] bg-[#EEEAFE] text-[#6D4AD8]">
+                    <Icon className="h-5 w-5" aria-hidden="true" />
                   </span>
                   <div>
-                    <h3 className="text-[18px] font-semibold tracking-[-0.01em] text-[#23327A]">
+                    <h3 className="text-[15px] font-bold text-[#243B73]">
                       {card.title}
                     </h3>
-                    <p className="mt-1.5 text-[15px] text-[#4B5563]">
+                    <p className="mt-1 text-[12px] text-[#526174]">
                       {card.text}
                     </p>
                   </div>
@@ -65,33 +65,33 @@ export default function PatientsCaregivers() {
         </div>
 
         <div>
-          <p className="inline-flex items-center gap-2.5 text-[13px] font-semibold uppercase tracking-[0.16em] text-[#5B3FD1]">
+          <p className="inline-flex items-center gap-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#5F46C0]">
             <span
-              className="block h-2 w-2 rounded-full bg-[#7C5CE8]"
+              className="block h-1.5 w-1.5 rounded-full bg-[#7C5CE8]"
               aria-hidden="true"
             />
             Patients &amp; caregivers
           </p>
 
-          <h2 className="mt-5 text-[40px] font-bold leading-[1.1] tracking-[-0.03em] text-[#23327A] sm:text-[52px]">
+          <h2 className="mt-5 text-[32px] font-bold leading-[1.2] tracking-[-0.02em] text-[#243B73] sm:text-[40px] sm:leading-[48px]">
             People first.
             <br />
             Every step of the way.
           </h2>
 
-          <p className="mt-6 max-w-[620px] text-[18px] leading-[1.7] text-[#4B5563]">
+          <p className="mt-5 max-w-[700px] text-[17px] leading-[30px] text-[#526174] sm:text-[18px]">
             Healthcare navigation should feel understandable. Explore what to
             expect, who is responsible, and how support can be involved.
           </p>
 
-          <ul className="mt-8 flex flex-col gap-4">
+          <ul className="mt-6 flex flex-col gap-3.5">
             {POINTS.map((point) => (
               <li
                 key={point}
-                className="flex items-start gap-4 text-[16px] text-[#4B5563]"
+                className="flex items-start gap-3 text-[14px] leading-[21px] text-[#526174]"
               >
                 <Check
-                  className="mt-1 h-4 w-4 shrink-0 text-[#6D4AD8]"
+                  className="mt-1 h-3.5 w-3.5 shrink-0 text-[#6D4AD8]"
                   aria-hidden="true"
                 />
                 {point}
@@ -99,17 +99,17 @@ export default function PatientsCaregivers() {
             ))}
           </ul>
 
-          <div className="mt-9 flex flex-wrap items-center gap-4">
+          <div className="mt-8 flex flex-wrap items-center gap-3">
             <Link
               href="#"
-              className="inline-flex items-center gap-2 rounded-lg bg-[#4267D5] px-7 py-4 text-[16px] font-semibold text-white transition-opacity hover:opacity-90"
+              className="inline-flex min-h-[49px] items-center gap-1.5 rounded-md bg-[#4267D5] px-[22px] text-[14px] font-semibold text-white transition-opacity hover:opacity-90"
             >
               For patients
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
             <Link
               href="#"
-              className="inline-flex items-center gap-2 rounded-lg border border-[#C9D3F2] bg-white px-7 py-4 text-[16px] font-semibold text-[#3B5FD0] transition-colors hover:bg-[#F7F8FF]"
+              className="inline-flex min-h-[49px] items-center gap-1.5 rounded-md border border-[#C9D3F2] bg-white px-[22px] text-[14px] font-semibold text-[#3B5FD0] transition-colors hover:bg-[#F7F8FF]"
             >
               For caregivers
               <ArrowRight className="h-4 w-4" aria-hidden="true" />

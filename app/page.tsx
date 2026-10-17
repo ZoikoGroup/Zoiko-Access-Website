@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import {
   HomeHero,
-  HeroHighlights,
   NextStep,
   HowItWorks,
   PatientsCaregivers,
@@ -12,6 +11,15 @@ import {
   HomeFaq,
   ChooseNextStep,
 } from "@/components/home";
+import { Inter, Poppins } from "next/font/google";
+
+// The Figma design for this page uses Inter for text and Poppins for headings.
+const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["600", "700"],
+  variable: "--font-poppins",
+});
 
 export const metadata: Metadata = {
   title: "Zoiko Access | Healthcare Access & Navigation Platform",
@@ -21,9 +29,8 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main>
+    <main className={`${inter.className} ${poppins.variable}`}>
       <HomeHero />
-      <HeroHighlights />
       <NextStep />
       <HowItWorks />
       <PatientsCaregivers />
