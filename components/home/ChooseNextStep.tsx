@@ -1,17 +1,20 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import SectionHeading from "./SectionHeading";
 
 const CARDS = [
   {
     title: "For individuals & families",
     text: "Explore how the care-navigation journey is designed to work.",
     link: "Explore how it works",
+    href: "/how-it-works",
     variant: "solid",
   },
   {
     title: "For institutions & partners",
     text: "Understand where your organization fits in the ecosystem.",
     link: "Explore your pathway",
+    href: "#",
     variant: "outline",
   },
 ] as const;
@@ -23,7 +26,7 @@ const BUTTON_STYLES = {
 
 export default function ChooseNextStep() {
   return (
-    <section className="relative w-full overflow-hidden bg-[#EEEAFE] font-sans">
+    <section className="relative w-full overflow-hidden bg-[#EEEAFE]">
       <div
         className="pointer-events-none absolute -right-[10%] -top-[50%] h-[800px] w-[800px] bg-[radial-gradient(circle_at_center,#8F73FF99_0%,#EEEAFE00_70%)]"
         aria-hidden="true"
@@ -33,32 +36,25 @@ export default function ChooseNextStep() {
         aria-hidden="true"
       />
 
-      <div className="relative mx-auto max-w-[1440px] px-6 py-14 sm:px-10 lg:px-[60px] lg:py-[80px]">
-        <p className="inline-flex items-center gap-2.5 text-[13px] font-semibold uppercase tracking-[0.16em] text-[#5B3FD1]">
-          <span
-            className="block h-2 w-2 rounded-full bg-[#7C5CE8]"
-            aria-hidden="true"
-          />
-          Choose your next step
-        </p>
+      <div className="relative mx-auto max-w-[1440px] px-6 py-14 sm:px-10 lg:px-[60px] lg:py-20">
+        <SectionHeading
+          badge="Choose your next step"
+          title="Start with understanding."
+        />
 
-        <h2 className="mt-5 text-[36px] font-bold leading-[1.1] tracking-[-0.03em] text-[#23327A] sm:text-[44px]">
-          Start with understanding.
-        </h2>
-
-        <ul className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2">
+        <ul className="mt-9 grid grid-cols-1 gap-[26px] md:grid-cols-2">
           {CARDS.map((card) => (
             <li
               key={card.title}
-              className="rounded-[24px] border border-[#E1E6F0] bg-white px-7 py-9 sm:px-12 sm:py-12"
+              className="rounded-[14px] border border-[#E1E6F0] bg-white px-7 pb-7 pt-7"
             >
-              <h3 className="text-[28px] font-semibold tracking-[-0.02em] text-[#23327A] sm:text-[32px]">
+              <h3 className="text-[22px] font-bold tracking-[-0.01em] text-[#243B73] sm:text-[24px]">
                 {card.title}
               </h3>
-              <p className="mt-9 text-[16px] text-[#4B5563]">{card.text}</p>
+              <p className="mt-6 text-[14px] text-[#526174]">{card.text}</p>
               <Link
-                href="#"
-                className={`mt-7 inline-flex items-center gap-2 rounded-lg px-8 py-4 text-[17px] font-semibold transition-colors ${BUTTON_STYLES[card.variant]}`}
+                href={card.href}
+                className={`mt-4 inline-flex min-h-[50px] items-center gap-1.5 rounded-md px-[22px] text-[14px] font-semibold transition-colors ${BUTTON_STYLES[card.variant]}`}
               >
                 {card.link}
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />

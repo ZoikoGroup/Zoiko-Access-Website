@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Minus, Plus } from "lucide-react";
+import SectionHeading from "./SectionHeading";
 
 const FAQS = [
   {
@@ -46,26 +47,21 @@ export default function HomeFaq() {
   const [open, setOpen] = useState<string | null>(null);
 
   return (
-    <section className="w-full bg-white font-sans">
-      <div className="mx-auto grid max-w-[1440px] grid-cols-1 gap-10 px-6 py-14 sm:px-10 lg:grid-cols-[0.8fr_1.2fr] lg:gap-16 lg:px-[60px] lg:py-[70px]">
+    <section className="w-full bg-white">
+      <div className="mx-auto grid max-w-[1440px] grid-cols-1 gap-10 px-6 py-14 sm:px-10 lg:grid-cols-[minmax(0,420fr)_minmax(0,833fr)] lg:gap-x-[67px] lg:px-[60px] lg:py-20">
         <div>
-          <p className="inline-flex items-center gap-2 text-[12px] font-semibold uppercase tracking-[0.16em] text-[#5B3FD1]">
-            <span
-              className="block h-1.5 w-1.5 rounded-full bg-[#7C5CE8]"
-              aria-hidden="true"
-            />
-            Questions, answered
-          </p>
-
-          <h2 className="mt-5 text-[34px] font-bold leading-[1.1] tracking-[-0.03em] text-[#23327A] sm:text-[42px]">
-            Know before
-            <br />
-            you take the next step.
-          </h2>
-
-          <p className="mt-6 max-w-[400px] text-[16px] leading-[1.7] text-[#4B5563]">
-            Plain-language guidance about the ecosystem and its boundaries.
-          </p>
+          <SectionHeading
+            badge="Questions, answered"
+            title={
+              <>
+                Know before
+                <br />
+                you take the next step.
+              </>
+            }
+            description="Plain-language guidance about the ecosystem and its boundaries."
+            className="max-w-[420px]"
+          />
         </div>
 
         <div className="border-t border-transparent">
