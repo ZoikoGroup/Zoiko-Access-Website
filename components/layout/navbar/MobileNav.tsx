@@ -5,7 +5,11 @@ import Link from "next/link";
 import { ArrowUpRight, ChevronDown, Globe, MapPin } from "lucide-react";
 import { MENU } from "./data";
 
-export default function MobileNav() {
+type Props = {
+  onNavigate?: () => void;
+};
+
+export default function MobileNav({ onNavigate }: Props) {
   const [open, setOpen] = useState<number | null>(null);
 
   return (
@@ -42,6 +46,7 @@ export default function MobileNav() {
                       <li key={link.label}>
                         <Link
                           href={link.href}
+                          onClick={onNavigate}
                           className="flex items-center gap-3 py-2.5 text-[14px] text-[#3F3F46]"
                         >
                           <Icon
@@ -77,6 +82,7 @@ export default function MobileNav() {
         </button>
         <Link
           href="/how-it-works"
+          onClick={onNavigate}
           className="inline-flex w-fit items-center gap-2 rounded-md bg-[#4267D5] px-6 py-3 text-[14px] font-semibold text-white"
         >
           How it works
