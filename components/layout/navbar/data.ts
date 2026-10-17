@@ -90,7 +90,7 @@ export const MENU: readonly MenuItem[] = [
       ],
       [
         l("Find services", Search),
-        l("Find care", Heart),
+        l("Find care", Heart, "/find-care"),
         l("Healthcare professionals", BookOpen, "/healthcare-professionals"),
         l("Locations and availability", MapPin, "/locations-availability"),
       ],
@@ -98,7 +98,7 @@ export const MENU: readonly MenuItem[] = [
         l("Next steps", ClipboardList),
         l("Book or request care", CalendarDays, "/request-appointment"),
         l("How referrals work", FileText, "/how-referrals-work"),
-        l("Talk to support", MessageCircle),
+        l("Talk to support", MessageCircle, "/talk-to-support"),
       ],
     ],
   },
