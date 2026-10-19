@@ -172,6 +172,8 @@ export const FOOTER_LINK_HREFS: Readonly<Record<string, string>> = {
   "Care pathways explained": "/care-pathways",
   "Healthcare professionals": "/healthcare-professionals",
   "Locations and availability": "/locations-availability",
+  "For patients": "/for-patients",
+  "Caregivers & families": "/for-caregivers",
 };
 
 export const OFFICES = [

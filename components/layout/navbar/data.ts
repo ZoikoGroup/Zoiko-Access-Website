@@ -110,8 +110,8 @@ export const MENU: readonly MenuItem[] = [
     columns: [
       [
         l("Start here", Compass),
-        l("For patients", User),
-        l("For caregivers", Heart),
+        l("For patients", User, "/for-patients"),
+        l("For caregivers", Heart, "/for-caregivers"),
         l("Create a patient account", UserPlus),
       ],
       [

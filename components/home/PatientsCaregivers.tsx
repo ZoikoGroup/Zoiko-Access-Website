@@ -101,14 +101,14 @@ export default function PatientsCaregivers() {
 
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <Link
-              href="#"
+              href="/for-patients"
               className="inline-flex min-h-[49px] items-center gap-1.5 rounded-md bg-[#4267D5] px-[22px] text-[14px] font-semibold text-white transition-opacity hover:opacity-90"
             >
               For patients
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
             <Link
-              href="#"
+              href="/for-caregivers"
               className="inline-flex min-h-[49px] items-center gap-1.5 rounded-md border border-[#C9D3F2] bg-white px-[22px] text-[14px] font-semibold text-[#3B5FD0] transition-colors hover:bg-[#F7F8FF]"
             >
               For caregivers
