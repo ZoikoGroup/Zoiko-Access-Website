@@ -112,11 +112,11 @@ export const MENU: readonly MenuItem[] = [
         l("Start here", Compass),
         l("For patients", User, "/for-patients"),
         l("For caregivers", Heart, "/for-caregivers"),
-        l("Create a patient account", UserPlus),
+        l("Create a patient account", UserPlus, "/create-patient-account"),
       ],
       [
         l("Manage your journey", Route),
-        l("Appointments & requests", CalendarDays, "/request-appointment"),
+        l("Appointments & requests", CalendarDays, "/appointments-requests"),
         l("Referrals & next steps", ArrowRight),
         l("Messages & notifications", Bell),
       ],
