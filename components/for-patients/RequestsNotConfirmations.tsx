@@ -8,7 +8,7 @@ const topics = [
       "Requested, awaiting acceptance, held where that provider concept exists, confirmed, changed, and canceled are distinct states.",
       "A partner-owned acceptance is needed before confirmation. No patient appointment workspace or slot calendar is connected.",
     ],
-    link: { text: "Learn about appointment requests →", href: "#" },
+    link: { text: "Learn about appointment requests →", href: "/appointments-requests" },
   },
   {
     title: "Referrals & next steps",
