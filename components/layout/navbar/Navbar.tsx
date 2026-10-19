@@ -13,7 +13,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 w-full bg-white font-sans text-[#1F2937] shadow-sm">
       <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-12">
         <div className="flex h-[68px] items-center justify-between">
-          <Logo />
+          <Logo onNavigate={() => setOpen(false)} />
           <TopBar />
 
           <button
@@ -34,7 +34,7 @@ export default function Navbar() {
       </div>
 
       <DesktopNav />
-      {open ? <MobileNav /> : null}
+      {open ? <MobileNav onNavigate={() => setOpen(false)} /> : null}
     </header>
   );
 }
