@@ -117,8 +117,8 @@ export const MENU: readonly MenuItem[] = [
       [
         l("Manage your journey", Route),
         l("Appointments & requests", CalendarDays, "/appointments-requests"),
-        l("Referrals & next steps", ArrowRight),
-        l("Messages & notifications", Bell),
+        l("Referrals & next steps", ArrowRight, "/referrals-next-steps"),
+        l("Messages & notifications", Bell, "/patients-messages"),
       ],
       [
         l("Your information", Contact),

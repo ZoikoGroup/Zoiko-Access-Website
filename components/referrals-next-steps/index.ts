@@ -1,0 +1,13 @@
+export { default as ReferralsHero } from "./ReferralsHero";
+export { default as FiveStatuses } from "./FiveStatuses";
+export { default as StatusTimeline } from "./StatusTimeline";
+export { default as ReferralView } from "./ReferralView";
+export { default as ResponsibleNext } from "./ResponsibleNext";
+export { default as WhoseInformation } from "./WhoseInformation";
+export { default as HonestAbsence } from "./HonestAbsence";
+export { default as SupportingMaterials } from "./SupportingMaterials";
+export { default as Alerts } from "./Alerts";
+export { default as ChangeHistory } from "./ChangeHistory";
+export { default as RightPlace } from "./RightPlace";
+export { default as ReferralsFaq } from "./ReferralsFaq";
+export { default as ReferralsCta } from "./ReferralsCta";
