@@ -1,0 +1,16 @@
+export { default as PrivacyHero } from "./PrivacyHero";
+export { default as WhatPermissionIs } from "./WhatPermissionIs";
+export { default as WhereYouAre } from "./WhereYouAre";
+export { default as InformationKinds } from "./InformationKinds";
+export { default as WhoMayAccess } from "./WhoMayAccess";
+export { default as WhyInformationUsed } from "./WhyInformationUsed";
+export { default as ChoiceVsPermission } from "./ChoiceVsPermission";
+export { default as KindsOfAuthority } from "./KindsOfAuthority";
+export { default as RequestToOutcome } from "./RequestToOutcome";
+export { default as YourRights } from "./YourRights";
+export { default as PermissionLifecycle } from "./PermissionLifecycle";
+export { default as DesignPrinciples } from "./DesignPrinciples";
+export { default as PrivacyFaq } from "./PrivacyFaq";
+export { default as WhereToTakeQuestions } from "./WhereToTakeQuestions";
+export { default as WhatIsMissing } from "./WhatIsMissing";
+export { default as PrivacyCta } from "./PrivacyCta";
