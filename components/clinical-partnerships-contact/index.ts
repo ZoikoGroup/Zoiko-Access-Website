@@ -1,0 +1,11 @@
+export { default as PartnershipsHero } from "./PartnershipsHero";
+export { default as WhereItGoes } from "./WhereItGoes";
+export { default as PartnershipsEligibility } from "./PartnershipsEligibility";
+export { default as WhatItCovers } from "./WhatItCovers";
+export { default as WhatHappensNext } from "./WhatHappensNext";
+export { default as LocationSelect } from "./LocationSelect";
+export { default as ContactFormSection } from "./ContactFormSection";
+export { default as OtherRoutes } from "./OtherRoutes";
+export { default as TrustSection } from "./TrustSection";
+export { default as PartnershipsFaq } from "./PartnershipsFaq";
+export { default as PartnershipsBottomCta } from "./PartnershipsBottomCta";
