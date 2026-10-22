@@ -103,6 +103,7 @@ export default function TransitionScenarios() {
                   src={sc.image}
                   alt={sc.title}
                   fill
+                  sizes="(max-width: 1024px) 100vw, (max-width: 1300px) 50vw, 638px"
                   className="object-cover"
                 />
               </div>

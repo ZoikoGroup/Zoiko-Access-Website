@@ -256,6 +256,7 @@ export default function ExceptionsEscalation() {
               src="/care-transitions/ct09-fig.png"
               alt="Transition exceptions and escalation"
               fill
+              sizes="(max-width: 1024px) 100vw, 380px"
               className="object-cover"
               priority
             />

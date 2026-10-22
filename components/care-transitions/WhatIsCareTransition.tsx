@@ -98,6 +98,7 @@ export default function WhatIsCareTransition() {
                   src={card.image}
                   alt={card.title}
                   fill
+                  sizes="(max-width: 640px) 100vw, 200px"
                   className="object-cover"
                 />
               </div>

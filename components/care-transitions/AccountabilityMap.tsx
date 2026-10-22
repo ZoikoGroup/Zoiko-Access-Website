@@ -222,6 +222,7 @@ export default function AccountabilityMap() {
                 src="/care-transitions/ct07-fig.png"
                 alt="Provenance is not assignment"
                 fill
+                sizes="(max-width: 1024px) 100vw, 424px"
                 className="object-cover"
                 priority
               />

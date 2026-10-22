@@ -2,27 +2,27 @@ import Image from "next/image";
 
 const points = [
   {
-    icon: "/care-transitions/i-folder.svg",
+    icon: "/care-transitions/icon-folder.svg",
     title: "Source of truth",
     desc: "Each organization remains\nthe source for its own\nrecords.",
   },
   {
-    icon: "/care-transitions/i-chat.svg",
+    icon: "/care-transitions/icon-chat.svg",
     title: "Clear message\nmeaning",
     desc: "Interoperable messages\ncarry defined meanings for\neach event.",
   },
   {
-    icon: "/care-transitions/i-lock.svg",
+    icon: "/care-transitions/icon-lock.svg",
     title: "Minimum necessary",
     desc: "Only the information the\npurpose needs is shared.",
   },
   {
-    icon: "/care-transitions/i-list.svg",
+    icon: "/care-transitions/icon-list.svg",
     title: "Residency and audit",
     desc: "Regional rules and audit\nrecords apply where active.",
   },
   {
-    icon: "/care-transitions/i-heart.svg",
+    icon: "/care-transitions/icon-heart.svg",
     title: "Clinical boundary",
     desc: "Decisions stay with\nprofessionals. No “every\nEHR” or central worldwide\nrecord is claimed.",
   },
@@ -33,9 +33,9 @@ export default function TrustClinicalSafety() {
     <section className="w-full bg-[#f6f9fc] py-[97px] px-4 md:px-[80px]">
       <div className="mx-auto max-w-[1280px]">
         {/* Section Header */}
-        <div className="mb-[40px]">
+        <div className="mb-[24px]">
           {/* Badge */}
-          <div className="mb-[14px] inline-flex items-center gap-[10px]">
+          <div className="mb-[16px] inline-flex items-center gap-[18px]">
             <span className="h-[2px] w-[28px] bg-[#7b3ff2]" aria-hidden="true" />
             <span
               style={{
@@ -68,49 +68,47 @@ export default function TrustClinicalSafety() {
           </h2>
         </div>
 
-        {/* 5 Column Grid - Exact Figma: 234px, rounded-24px, border #d9d3f5, blue circle with white icon */}
-        <div className="grid grid-cols-1 gap-[14px] sm:grid-cols-2 lg:grid-cols-5">
+        {/* 5 Column Grid - Exact Figma CT-11: 24px 20px padding, 14px gap, rounded-24px, border #d9d3f5 */}
+        <div className="grid grid-cols-1 gap-[14px] pt-[18px] sm:grid-cols-2 lg:grid-cols-5">
           {points.map((pt, idx) => (
             <div
               key={idx}
-              className="flex flex-col justify-between rounded-[24px] border border-[#d9d3f5] bg-white p-[20px] pt-[24px] shadow-[0_4px_24px_rgba(3,25,116,0.02)] transition-all hover:shadow-[0_8px_24px_rgba(3,25,116,0.06)]"
+              className="flex flex-col rounded-[24px] border border-[#d9d3f5] bg-white p-[20px] pt-[24px] pb-[32px] transition-all"
             >
-              <div>
-                {/* Icon Container: Exact Figma 48x48 rounded-full gradient #02125f to #3a4de0 */}
-                <div
-                  className="mb-[18px] flex h-[48px] w-[48px] items-center justify-center rounded-full"
-                  style={{
-                    background:
-                      "linear-gradient(135deg, #02125f 0%, #1b2fb5 55%, #3a4de0 100%)",
-                  }}
-                >
-                  <Image
-                    src={pt.icon}
-                    alt={pt.title.replace(/\n/g, " ")}
-                    width={22}
-                    height={22}
-                    className="h-[22px] w-[22px] object-contain"
-                  />
-                </div>
-
-                {/* Title */}
-                <h3
-                  className="mb-[10px] whitespace-pre-line text-[#031974]"
-                  style={{
-                    fontFamily: "var(--font-outfit), sans-serif",
-                    fontWeight: 600,
-                    fontSize: "19px",
-                    lineHeight: "22.8px",
-                    letterSpacing: "-0.475px",
-                  }}
-                >
-                  {pt.title}
-                </h3>
+              {/* Icon Container: Exact Figma 48x48 rounded-full gradient #02125f to #3a4de0 */}
+              <div
+                className="flex h-[48px] w-[48px] items-center justify-center rounded-full shrink-0"
+                style={{
+                  background:
+                    "linear-gradient(120deg, #02125f 0%, #1b2fb5 56%, #3a4de0 100%)",
+                }}
+              >
+                <Image
+                  src={pt.icon}
+                  alt=""
+                  width={22}
+                  height={22}
+                  className="h-[22px] w-[22px] object-contain"
+                />
               </div>
 
-              {/* Description */}
+              {/* Title: pt-[8px] right below icon */}
+              <h3
+                className="pt-[8px] whitespace-pre-line text-[#031974]"
+                style={{
+                  fontFamily: "var(--font-outfit), sans-serif",
+                  fontWeight: 600,
+                  fontSize: "19px",
+                  lineHeight: "22.8px",
+                  letterSpacing: "-0.475px",
+                }}
+              >
+                {pt.title}
+              </h3>
+
+              {/* Description: mt-[5.4px] right below title */}
               <p
-                className="whitespace-pre-line text-[#273444]"
+                className="mt-[5.4px] whitespace-pre-line text-[#273444]"
                 style={{
                   fontFamily: "var(--font-inter), sans-serif",
                   fontWeight: 400,

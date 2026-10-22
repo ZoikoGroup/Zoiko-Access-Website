@@ -45,6 +45,7 @@ export default function CareTransitionsHero() {
           src="/care-transitions/hero-bg.png"
           alt="Care transitions hero background texture"
           fill
+          sizes="(max-width: 1473px) 100vw, 1473px"
           className="object-cover"
           priority
         />
@@ -147,6 +148,7 @@ export default function CareTransitionsHero() {
                 src="/care-transitions/hero-collage.png"
                 alt="Illustrative collage of three care settings connected by a dotted handoff path"
                 fill
+                sizes="(max-width: 768px) 100vw, 483px"
                 className="object-contain"
                 priority
               />
@@ -189,6 +191,7 @@ export default function CareTransitionsHero() {
                         src={step.photo}
                         alt={step.alt}
                         fill
+                        sizes="84px"
                         className="object-cover"
                       />
                     </div>

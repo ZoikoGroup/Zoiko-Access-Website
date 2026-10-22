@@ -3,23 +3,22 @@ import Link from "next/link";
 
 export default function NextStepCta() {
   return (
-    <section className="relative w-full overflow-hidden py-[70px] px-4 md:px-[70px] bg-[#02125f]">
-      {/* Background Image: Clinicians review photo from Figma */}
+    <section
+      className="relative w-full overflow-hidden py-[70px] px-4 md:px-[70px]"
+      style={{
+        background:
+          "linear-gradient(141deg, #02125f 0%, #1b2fb5 56%, #3a4de0 100%)",
+      }}
+    >
+      {/* Background Image: Exact Figma Composition (Mirrored, Tinted, Seamless) */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/care-transitions/ct14-photo.png"
+          src="/care-transitions/ct14-bg-clean.png"
           alt="Explore coordinated care pathways"
           fill
+          sizes="100vw"
           className="object-cover object-center"
           priority
-        />
-        {/* Exact Figma Gradient Overlay: #1b2fb5 to #02125f */}
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              "linear-gradient(90deg, rgba(27, 47, 181, 0.88) 0%, rgba(2, 18, 95, 0.92) 100%)",
-          }}
         />
       </div>
 

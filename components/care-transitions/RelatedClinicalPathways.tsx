@@ -31,9 +31,9 @@ const pathways = [
 export default function RelatedClinicalPathways() {
   return (
     <section
-      className="w-full py-[70px] px-4 md:px-[70px]"
+      className="w-full py-[96px] px-4 md:px-[80px]"
       style={{
-        background: "linear-gradient(135deg, #f1eefe 0%, #cec1ff 100%)",
+        background: "linear-gradient(90deg, #f1eefe 0%, #cec1ff 100%)",
       }}
     >
       <div className="mx-auto max-w-[1300px]">
@@ -100,6 +100,7 @@ export default function RelatedClinicalPathways() {
                     src={pw.image}
                     alt={pw.title}
                     fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1300px) 25vw, 300px"
                     className="object-cover"
                     priority
                   />
