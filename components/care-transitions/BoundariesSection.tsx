@@ -91,6 +91,7 @@ export default function BoundariesSection() {
                   src={b.image}
                   alt={b.title}
                   fill
+                  sizes="(max-width: 1024px) 100vw, (max-width: 1300px) 33vw, 420px"
                   className="object-cover"
                   priority
                 />

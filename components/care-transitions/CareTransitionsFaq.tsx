@@ -167,6 +167,7 @@ export default function CareTransitionsFaq() {
                 src="/care-transitions/ct12-fig.png"
                 alt="Looking for something specific"
                 fill
+                sizes="(max-width: 1024px) 100vw, 421px"
                 className="object-cover"
                 priority
               />
