@@ -13,10 +13,15 @@ import {
   BookOpen,
 } from "lucide-react";
 
+export type FooterLink = {
+  label: string;
+  href: string;
+};
+
 export type FooterGroup = {
   title: string;
   icon: typeof Heart;
-  links: readonly string[];
+  links: readonly FooterLink[];
 };
 
 export const FOOTER_GROUPS: readonly FooterGroup[] = [
@@ -24,157 +29,181 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
     title: "Explore Care",
     icon: Heart,
     links: [
-      "How Zoiko Access works",
-      "Explore healthcare services",
-      "Care pathways explained",
-      "Healthcare professionals",
-      "Locations and availability",
+      { label: "How Zoiko Access works", href: "/how-zoiko-access-works" },
+      { label: "Explore healthcare services", href: "/healthcare-services" },
+      { label: "Care pathways explained", href: "/care-pathways" },
+      { label: "Healthcare professionals", href: "/healthcare-professionals" },
+      { label: "Locations and availability", href: "/locations-availability" },
     ],
   },
   {
     title: "Patients",
     icon: User,
     links: [
-      "For patients",
-      "Caregivers & families",
-      "Privacy & permissions",
-      "Health information access",
-      "Accessible help",
+      { label: "For patients", href: "/for-patients" },
+      { label: "Caregivers & families", href: "/for-caregivers" },
+      { label: "Privacy & permissions", href: "/privacy-permissions" },
+      {
+        label: "Health information access",
+        href: "/health-information-access",
+      },
+      { label: "Accessible help", href: "/accessible-help" },
     ],
   },
   {
     title: "Clinicians",
     icon: Stethoscope,
     links: [
-      "For clinicians",
-      "Referral coordination",
-      "Care transitions & follow-up",
-      "Tasks & worklists",
-      "Results & review handoffs",
-      "Clinical responsibility",
+      { label: "For clinicians", href: "/for-clinicians" },
+      { label: "Referral coordination", href: "/referral-coordination" },
+      { label: "Care transitions & follow-up", href: "/care-transitions" },
+      { label: "Tasks & worklists", href: "/tasks-worklists" },
+      { label: "Results & review handoffs", href: "/results-review-handoffs" },
+      { label: "Clinical responsibility", href: "/clinical-responsibility" },
     ],
   },
   {
     title: "Hospitals & Clinics",
     icon: Building2,
     links: [
-      "Hospitals & clinic networks",
-      "Private practices",
-      "Outpatient services",
-      "Scheduling & patient access",
-      "Referral intake & routing",
-      "Care transitions",
-      "EHR interoperability",
+      {
+        label: "Hospitals & clinic networks",
+        href: "/hospitals-clinic-networks",
+      },
+      { label: "Private practices", href: "/private-practices" },
+      { label: "Outpatient services", href: "/outpatient-services" },
+      {
+        label: "Scheduling & patient access",
+        href: "/scheduling-patient-access",
+      },
+      { label: "Referral intake & routing", href: "/referral-intake-routing" },
+      { label: "Care transitions", href: "/care-transitions" },
+      { label: "EHR interoperability", href: "/ehr-interoperability" },
     ],
   },
   {
     title: "Partners & Developers",
     icon: Code2,
     links: [
-      "Technology partners",
-      "Health-system vendors",
-      "API & interoperability",
-      "SDKs, webhooks & events",
-      "Integration security",
-      "Certification framework",
+      { label: "Technology partners", href: "/technology-partners" },
+      { label: "Health-system vendors", href: "/health-system-vendors" },
+      { label: "API & interoperability", href: "/api-interoperability" },
+      { label: "SDKs, webhooks & events", href: "/sdks-webhooks-events" },
+      { label: "Integration security", href: "/integration-security" },
+      { label: "Certification framework", href: "/certification-framework" },
     ],
   },
   {
     title: "Resources",
     icon: BookOpen,
     links: [
-      "Help center",
-      "FAQs",
-      "Healthcare navigation guide",
-      "Safety & emergencies",
-      "Accessibility",
-      "Privacy & your information",
-      "News & insights",
+      { label: "Help center", href: "/help-center" },
+      { label: "FAQs", href: "/faqs" },
+      {
+        label: "Healthcare navigation guide",
+        href: "/healthcare-navigation-guide",
+      },
+      { label: "Safety & emergencies", href: "/safety-emergencies" },
+      { label: "Accessibility", href: "/accessibility" },
+      { label: "Privacy & your information", href: "/privacy-information" },
+      { label: "News & insights", href: "/news-insights" },
     ],
   },
   {
     title: "Labs & Diagnostics",
     icon: FlaskConical,
     links: [
-      "For laboratories",
-      "Imaging & radiology",
-      "Diagnostics coordination",
-      "Lab & imaging integration",
-      "Safety & escalation",
-      "Clinical results handoffs",
+      { label: "For laboratories", href: "/for-laboratories" },
+      { label: "Imaging & radiology", href: "/imaging-radiology" },
+      { label: "Diagnostics coordination", href: "/diagnostics-coordination" },
+      { label: "Lab & imaging integration", href: "/lab-imaging-integration" },
+      { label: "Safety & escalation", href: "/safety-escalation" },
+      {
+        label: "Clinical results handoffs",
+        href: "/clinical-results-handoffs",
+      },
     ],
   },
   {
     title: "Pharmacies",
     icon: Pill,
     links: [
-      "For pharmacies",
-      "Prescription routing",
-      "Fulfillment & availability",
-      "Medication safety & escalation",
-      "API & integrations",
+      { label: "For pharmacies", href: "/for-pharmacies" },
+      { label: "Prescription routing", href: "/prescription-routing" },
+      {
+        label: "Fulfillment & availability",
+        href: "/fulfillment-availability",
+      },
+      {
+        label: "Medication safety & escalation",
+        href: "/medication-safety-escalation",
+      },
+      { label: "API & integrations", href: "/pharmacy-api-integrations" },
     ],
   },
   {
     title: "Payers & Insurers",
     icon: CreditCard,
     links: [
-      "For payers & insurers",
-      "Eligibility & benefits",
-      "Prior authorizations",
-      "Claims coordination",
-      "Member access experience",
-      "Payer integration",
+      { label: "For payers & insurers", href: "/for-payers-insurers" },
+      { label: "Eligibility & benefits", href: "/eligibility-benefits" },
+      { label: "Prior authorizations", href: "/prior-authorizations" },
+      { label: "Claims coordination", href: "/claims-coordination" },
+      { label: "Member access experience", href: "/member-access-experience" },
+      { label: "Payer integration", href: "/payer-integration" },
     ],
   },
   {
     title: "Organizations",
     icon: Hospital,
     links: [
-      "Employers & occupational health",
-      "Community & home care",
-      "Government & public health",
-      "Health systems & regional networks",
-      "Nonprofits & NGOs",
-      "Research institutions",
+      {
+        label: "Employers & occupational health",
+        href: "/employers-occupational-health",
+      },
+      { label: "Community & home care", href: "/community-home-care" },
+      {
+        label: "Government & public health",
+        href: "/government-public-health",
+      },
+      {
+        label: "Health systems & regional networks",
+        href: "/health-systems-networks",
+      },
+      { label: "Nonprofits & NGOs", href: "/nonprofits-ngos" },
+      { label: "Research institutions", href: "/research-institutions" },
     ],
   },
   {
     title: "Company",
     icon: Briefcase,
     links: [
-      "Company overview",
-      "Mission & approach",
-      "Leadership & governance",
-      "Privacy & trust center",
-      "Clinical responsibility",
-      "Media & press",
+      { label: "Company overview", href: "/company-overview" },
+      { label: "Mission & approach", href: "/mission-approach" },
+      { label: "Leadership & governance", href: "/leadership-governance" },
+      { label: "Privacy & trust center", href: "/privacy-trust-center" },
+      {
+        label: "Clinical responsibility",
+        href: "/clinical-responsibility",
+      },
+      { label: "Media & press", href: "/media-press" },
     ],
   },
   {
     title: "Support & Legal",
     icon: ShieldCheck,
     links: [
-      "Help center",
-      "Safety & emergencies",
-      "Privacy policy",
-      "Terms of use",
-      "Cookie notice",
-      "Accessibility statement",
-      "Legal notices",
-      "Cookie preferences",
+      { label: "Help center", href: "/help-center" },
+      { label: "Safety & emergencies", href: "/support-safety-emergencies" },
+      { label: "Privacy policy", href: "/privacy-policy" },
+      { label: "Terms of use", href: "/terms-of-use" },
+      { label: "Cookie notice", href: "/cookie-notice" },
+      { label: "Accessibility statement", href: "/accessibility-statement" },
+      { label: "Legal notices", href: "/legal-notices" },
+      { label: "Cookie preferences", href: "/cookie-preferences" },
     ],
   },
 ] as const;
-
-export const FOOTER_LINK_HREFS: Readonly<Record<string, string>> = {
-  "Explore healthcare services": "/healthcare-services",
-  "Care pathways explained": "/care-pathways",
-  "Healthcare professionals": "/healthcare-professionals",
-  "Locations and availability": "/locations-availability",
-  "For patients": "/for-patients",
-  "Caregivers & families": "/for-caregivers",
-};
 
 export const OFFICES = [
   {
@@ -198,16 +227,20 @@ export const OFFICES = [
   },
 ] as const;
 
-export const HELP_LINKS = ["Help", "Privacy", "Accessibility"] as const;
+export const HELP_LINKS: readonly FooterLink[] = [
+  { label: "Help", href: "/help-center" },
+  { label: "Privacy", href: "/privacy-policy" },
+  { label: "Accessibility", href: "/accessibility" },
+] as const;
 
-export const LEGAL_LINKS = [
-  "Privacy Policy",
-  "Terms of Use",
-  "Cookie Notice",
-  "Accessibility",
-  "Legal Notices",
-  "Sitemap",
-  "Cookie Preferences",
+export const LEGAL_LINKS: readonly FooterLink[] = [
+  { label: "Privacy Policy", href: "/privacy-policy" },
+  { label: "Terms of Use", href: "/terms-of-use" },
+  { label: "Cookie Notice", href: "/cookie-notice" },
+  { label: "Accessibility", href: "/accessibility" },
+  { label: "Legal Notices", href: "/legal-notices" },
+  { label: "Sitemap", href: "/sitemap" },
+  { label: "Cookie Preferences", href: "/cookie-preferences" },
 ] as const;
 
 export const TAGLINE = [

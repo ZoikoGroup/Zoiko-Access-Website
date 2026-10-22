@@ -53,12 +53,12 @@ export default function FooterInfo() {
           </p>
           <ul className="mt-5 flex flex-wrap gap-x-5 gap-y-2">
             {HELP_LINKS.map((link) => (
-              <li key={link}>
+              <li key={link.href}>
                 <Link
-                  href="#"
+                  href={link.href}
                   className="text-[14px] font-semibold text-[#4267D5] hover:underline"
                 >
-                  {link}
+                  {link.label}
                 </Link>
               </li>
             ))}
