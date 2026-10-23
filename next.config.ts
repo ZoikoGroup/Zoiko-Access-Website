@@ -15,6 +15,14 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  async rewrites() {
+    return [
+      {
+        source: "/private_practices",
+        destination: "/private-practices",
+      },
+    ];
+  },
 };
 
 export default nextConfig;
