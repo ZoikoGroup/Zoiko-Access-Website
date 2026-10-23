@@ -10,7 +10,7 @@ export default function FooterInfo() {
     <div className="bg-gradient-to-b from-[#EEEAFE] to-[#D7CBFF]">
       <div className="mx-auto grid max-w-[1440px] grid-cols-1 gap-10 px-6 py-12 sm:px-10 md:grid-cols-2 lg:grid-cols-[1.2fr_1fr_1fr_1fr] lg:px-12">
         <div>
-          <Link href="#" aria-label="Zoiko Access home">
+          <Link href="/" aria-label="Zoiko Access home">
             <Image
               src="/logo.png"
               alt="Zoiko Access"
@@ -53,12 +53,12 @@ export default function FooterInfo() {
           </p>
           <ul className="mt-5 flex flex-wrap gap-x-5 gap-y-2">
             {HELP_LINKS.map((link) => (
-              <li key={link}>
+              <li key={link.href}>
                 <Link
-                  href="#"
+                  href={link.href}
                   className="text-[14px] font-semibold text-[#4267D5] hover:underline"
                 >
-                  {link}
+                  {link.label}
                 </Link>
               </li>
             ))}

@@ -1,0 +1,12 @@
+export { default as CaregiversHero } from "./CaregiversHero";
+export { default as ShortAnswer } from "./ShortAnswer";
+export { default as WaysToHelp } from "./WaysToHelp";
+export { default as UnderstandRole } from "./UnderstandRole";
+export { default as PermissionsExplained } from "./PermissionsExplained";
+export { default as MinorsSafeguards } from "./MinorsSafeguards";
+export { default as JourneyHandoffs } from "./JourneyHandoffs";
+export { default as PrivacyChoice } from "./PrivacyChoice";
+export { default as LocationContext } from "./LocationContext";
+export { default as CaregiversFaq } from "./CaregiversFaq";
+export { default as AccessibleHelp } from "./AccessibleHelp";
+export { default as CaregiversCta } from "./CaregiversCta";

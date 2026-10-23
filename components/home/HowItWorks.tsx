@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SectionHeading from "./SectionHeading";
 
 const STEPS = [
   {
@@ -21,43 +22,37 @@ const STEPS = [
 
 export default function HowItWorks() {
   return (
-    <section className="relative w-full overflow-hidden bg-[#EEEAFE] font-sans">
+    <section className="relative w-full overflow-hidden bg-[#EEEAFE]">
       <div
         className="pointer-events-none absolute -right-[10%] -top-[30%] h-[900px] w-[900px] bg-[radial-gradient(circle_at_center,#8F73FF99_0%,#EEEAFE_70%)]"
         aria-hidden="true"
       />
 
-      <div className="relative mx-auto grid max-w-[1440px] grid-cols-1 items-center gap-12 px-6 py-14 sm:px-10 lg:grid-cols-[1.1fr_1fr] lg:gap-10 lg:px-[60px] lg:py-[80px]">
+      <div className="relative mx-auto grid max-w-[1440px] grid-cols-1 items-center gap-12 px-6 py-14 sm:px-10 lg:grid-cols-[minmax(0,648fr)_minmax(0,553fr)] lg:gap-x-[119px] lg:px-[60px] lg:py-20">
         <div>
-          <p className="inline-flex items-center gap-2.5 text-[13px] font-semibold uppercase tracking-[0.16em] text-[#5B3FD1]">
-            <span
-              className="block h-2 w-2 rounded-full bg-[#7C5CE8]"
-              aria-hidden="true"
-            />
-            How Zoiko Access works
-          </p>
+          <SectionHeading
+            badge="How Zoiko Access works"
+            title={
+              <>
+                One journey.
+                <br />
+                Four understandable steps.
+              </>
+            }
+            description="This homepage explains the model. Live directories, appointment requests, and progress updates require separately approved services."
+            className="max-w-[480px] [&>p:last-child]:text-[14px] [&>p:last-child]:leading-[23px]"
+          />
 
-          <h2 className="mt-5 text-[36px] font-bold leading-[1.1] tracking-[-0.03em] text-[#23327A] sm:text-[44px]">
-            One journey.
-            <br />
-            Four understandable steps.
-          </h2>
-
-          <p className="mt-6 max-w-[560px] text-[16px] leading-[1.7] text-[#4B5563]">
-            This homepage explains the model. Live directories, appointment
-            requests, and progress updates require separately approved services.
-          </p>
-
-          <ul className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
+          <ul className="mt-14 grid grid-cols-1 gap-[25px] sm:grid-cols-2">
             {STEPS.map((step) => (
               <li
                 key={step.title}
-                className="rounded-[24px] border border-[#E1E6F0] bg-white px-7 py-9"
+                className="rounded-2xl border border-[#E1E6F0] bg-white px-6 pb-9 pt-7"
               >
-                <h3 className="text-[19px] font-semibold leading-snug tracking-[-0.02em] text-[#243B73]">
+                <h3 className="text-[18px] font-bold leading-snug tracking-[-0.01em] text-[#243B73]">
                   {step.title}
                 </h3>
-                <p className="mt-5 text-[13px] leading-[1.7] text-[#4B5563]">
+                <p className="mt-4 text-[13px] leading-[22px] text-[#526174]">
                   {step.text}
                 </p>
               </li>
@@ -65,12 +60,12 @@ export default function HowItWorks() {
           </ul>
         </div>
 
-        <div className="relative mx-auto aspect-square w-full max-w-[620px] overflow-hidden rounded-[32px] lg:max-w-none">
+        <div className="relative mx-auto aspect-[553/604] w-full max-w-[553px] overflow-hidden rounded-3xl bg-white">
           <Image
-            src="/home/4.png"
+            src="/home/how-it-works.webp"
             alt="Isometric illustration of the four-step healthcare access journey"
             fill
-            sizes="(min-width: 1024px) 45vw, 100vw"
+            sizes="(min-width: 1024px) 553px, 100vw"
             className="object-cover"
           />
         </div>

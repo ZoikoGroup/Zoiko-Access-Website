@@ -1,5 +1,4 @@
 export { default as HomeHero } from "./HomeHero";
-export { default as HeroHighlights } from "./HeroHighlights";
 export { default as NextStep } from "./NextStep";
 export { default as HowItWorks } from "./HowItWorks";
 export { default as PatientsCaregivers } from "./PatientsCaregivers";

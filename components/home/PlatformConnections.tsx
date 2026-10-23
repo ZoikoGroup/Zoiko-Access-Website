@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SectionHeading from "./SectionHeading";
 
 const STEPS = [
   {
@@ -25,53 +26,46 @@ const STEPS = [
 
 export default function PlatformConnections() {
   return (
-    <section className="w-full bg-[#f8fafc] font-sans">
-      <div className="mx-auto max-w-[1440px] px-6 py-14 sm:px-10 lg:px-[60px] lg:py-[70px]">
-        <p className="inline-flex items-center gap-2.5 text-[13px] font-semibold uppercase tracking-[0.16em] text-[#5B3FD1]">
-          <span
-            className="block h-2 w-2 rounded-full bg-[#7C5CE8]"
-            aria-hidden="true"
-          />
-          Platform connections
-        </p>
+    <section className="w-full bg-white">
+      <div className="mx-auto max-w-[1440px] px-6 py-14 sm:px-10 lg:px-[60px] lg:py-16">
+        <SectionHeading
+          badge="Platform connections"
+          title={
+            <>
+              Connected steps.
+              <br />
+              Clear responsibilities.
+            </>
+          }
+          description="Discovery, requests, provider decisions, and follow-up depend on the responsible source and authorized local service."
+        />
 
-        <h2 className="mt-5 text-[36px] font-bold leading-[1.1] tracking-[-0.03em] text-[#23327A] sm:text-[44px]">
-          Connected steps.
-          <br />
-          Clear responsibilities.
-        </h2>
-
-        <p className="mt-6 max-w-[1000px] text-[17px] leading-[1.7] text-[#4B5563]">
-          Discovery, requests, provider decisions, and follow-up depend on the
-          responsible source and authorized local service.
-        </p>
-
-        <div className="mt-12 grid grid-cols-1 items-center gap-10 lg:grid-cols-[1.15fr_1fr] lg:gap-6">
-          <ul className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pl-[30px]">
+        <div className="mt-6 grid grid-cols-1 items-center gap-10 lg:grid-cols-[minmax(0,646fr)_minmax(0,501fr)] lg:gap-x-[100px]">
+          <ul className="grid grid-cols-1 gap-x-[25px] gap-y-8 sm:grid-cols-2 lg:pl-[29px]">
             {STEPS.map((step) => (
               <li
                 key={step.tag}
-                className="rounded-t-[20px] border-t-2 border-[#1F5FC9] px-5 pb-6 pt-8"
+                className="rounded-t-[14px] border-t-2 border-[#1F5FC9] px-2.5 pb-4 pt-6"
               >
-                <p className="text-[14px] font-semibold tracking-[0.02em] text-[#6D4AD8]">
+                <p className="text-[11px] font-bold tracking-[0.02em] text-[#7E5CFE]">
                   {step.tag}
                 </p>
-                <h3 className="mt-5 text-[24px] font-semibold leading-snug tracking-[-0.02em] text-[#23327A]">
+                <h3 className="mt-4 text-[18px] font-bold leading-snug tracking-[-0.01em] text-[#243B73]">
                   {step.title}
                 </h3>
-                <p className="mt-4 max-w-[300px] text-[16px] leading-[1.7] text-[#4B5563]">
+                <p className="mt-3 max-w-[270px] text-[13px] leading-[22px] text-[#526174]">
                   {step.text}
                 </p>
               </li>
             ))}
           </ul>
 
-          <div className="relative mx-auto aspect-[4/3] w-full max-w-[640px] lg:max-w-none">
+          <div className="relative mx-auto aspect-[501/376] w-full max-w-[501px]">
             <Image
-              src="/home/11.png"
+              src="/home/platform-connections.webp"
               alt="Isometric illustration of connected healthcare steps around a central cloud"
               fill
-              sizes="(min-width: 1024px) 45vw, 100vw"
+              sizes="(min-width: 1024px) 501px, 100vw"
               className="object-contain"
             />
           </div>

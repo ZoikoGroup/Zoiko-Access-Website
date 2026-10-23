@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowRight, FileText, HeartPulse, MapPin, Users } from "lucide-react";
+import SectionHeading from "./SectionHeading";
 
 const CARDS = [
   {
@@ -26,7 +27,7 @@ const CARDS = [
 
 export default function SafetyTrust() {
   return (
-    <section className="relative w-full overflow-hidden bg-[#EEEAFE] font-sans">
+    <section className="relative w-full overflow-hidden bg-[#EEEAFE]">
       <div
         className="pointer-events-none absolute -right-[10%] -top-[40%] h-[1000px] w-[1000px] bg-[radial-gradient(circle_at_center,#8F73FF99_0%,#EEEAFE_70%)]"
         aria-hidden="true"
@@ -36,51 +37,44 @@ export default function SafetyTrust() {
         aria-hidden="true"
       />
 
-      <div className="relative mx-auto grid max-w-[1440px] grid-cols-1 items-center gap-12 px-6 py-14 sm:px-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-10 lg:px-[60px] lg:py-[80px]">
+      <div className="relative mx-auto grid max-w-[1440px] grid-cols-1 items-center gap-12 px-6 py-14 sm:px-10 lg:grid-cols-[minmax(0,540fr)_minmax(0,735fr)] lg:gap-x-[45px] lg:px-[60px] lg:py-20">
         <div>
-          <p className="inline-flex items-center gap-2.5 text-[13px] font-semibold uppercase tracking-[0.16em] text-[#5B3FD1]">
-            <span
-              className="block h-2 w-2 rounded-full bg-[#7C5CE8]"
-              aria-hidden="true"
-            />
-            Safety &amp; trust
-          </p>
-
-          <h2 className="mt-5 text-[36px] font-bold leading-[1.1] tracking-[-0.03em] text-[#23327A] sm:text-[44px]">
-            Confidence starts
-            <br />
-            with clarity.
-          </h2>
-
-          <p className="mt-6 max-w-[560px] text-[17px] leading-[1.7] text-[#4B5563]">
-            Understand the source of information, each care-team role, and the
-            limits of a service before acting.
-          </p>
+          <SectionHeading
+            badge="Safety & trust"
+            title={
+              <>
+                Confidence starts
+                <br />
+                with clarity.
+              </>
+            }
+            description="Understand the source of information, each care-team role, and the limits of a service before acting."
+          />
 
           <Link
             href="#"
-            className="mt-8 inline-flex items-center gap-2 rounded-lg border border-[#C9D3F2] bg-white px-6 py-4 text-[16px] font-semibold text-[#1F5FC9] transition-colors hover:bg-[#F7F8FF]"
+            className="mt-6 inline-flex min-h-[50px] items-center gap-1.5 rounded-md border border-[#C9D3F2] bg-white px-[22px] text-[14px] font-semibold text-[#1F5FC9] transition-colors hover:bg-[#F7F8FF]"
           >
             How we approach safety
             <ArrowRight className="h-4 w-4" aria-hidden="true" />
           </Link>
         </div>
 
-        <ul className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+        <ul className="grid grid-cols-1 gap-x-[29px] gap-y-[15px] sm:grid-cols-2">
           {CARDS.map((card) => {
             const Icon = card.icon;
             return (
               <li
                 key={card.title}
-                className="rounded-[20px] bg-[#FAFAFE] px-7 py-7"
+                className="rounded-lg bg-[#F7F8FC] px-5 pb-7 pt-5"
               >
-                <span className="flex h-[48px] w-[48px] items-center justify-center rounded-xl bg-[#EEEAFE] text-[#6D4AD8]">
+                <span className="flex h-[46px] w-[46px] items-center justify-center rounded-[10px] bg-[#EEEAFE] text-[#6D4AD8]">
                   <Icon className="h-5 w-5" aria-hidden="true" />
                 </span>
-                <h3 className="mt-6 text-[22px] font-semibold tracking-[-0.02em] text-[#23327A]">
+                <h3 className="mt-5 text-[18px] font-bold tracking-[-0.01em] text-[#243B73]">
                   {card.title}
                 </h3>
-                <p className="mt-5 text-[16px] leading-[1.7] text-[#4B5563]">
+                <p className="mt-4 text-[14px] leading-[23px] text-[#526174]">
                   {card.text}
                 </p>
               </li>

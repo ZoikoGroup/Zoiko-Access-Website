@@ -67,7 +67,11 @@ export default function DesktopNav() {
       </nav>
 
       {current && active !== null ? (
-        <MegaMenu item={current} id={`mega-${active}`} />
+        <MegaMenu
+          item={current}
+          id={`mega-${active}`}
+          onNavigate={() => setActive(null)}
+        />
       ) : null}
     </div>
   );

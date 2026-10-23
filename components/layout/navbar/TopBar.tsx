@@ -34,9 +34,14 @@ export default function TopBar() {
   );
 }
 
-export function Logo() {
+export function Logo({ onNavigate }: { onNavigate?: () => void }) {
   return (
-    <Link href="#" aria-label="Zoiko Access home" className="shrink-0">
+    <Link
+      href="/"
+      onClick={onNavigate}
+      aria-label="Zoiko Access home"
+      className="shrink-0"
+    >
       <Image
         src="/logo.png"
         alt="Zoiko Access"

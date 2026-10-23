@@ -1,0 +1,12 @@
+export { default as PatientsHero } from "./PatientsHero";
+export { default as WhatPatientsCanDo } from "./WhatPatientsCanDo";
+export { default as PatientJourney } from "./PatientJourney";
+export { default as TaskNavigator } from "./TaskNavigator";
+export { default as CareLocation } from "./CareLocation";
+export { default as RequestsNotConfirmations } from "./RequestsNotConfirmations";
+export { default as Caregivers } from "./Caregivers";
+export { default as PrivacyOwnership } from "./PrivacyOwnership";
+export { default as HealthInformation } from "./HealthInformation";
+export { default as AccessibilityHelp } from "./AccessibilityHelp";
+export { default as PatientsFaq } from "./PatientsFaq";
+export { default as PatientsCta } from "./PatientsCta";

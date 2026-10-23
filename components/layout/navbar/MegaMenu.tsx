@@ -6,9 +6,10 @@ import type { MenuItem } from "./data";
 type Props = {
   item: MenuItem;
   id: string;
+  onNavigate?: () => void;
 };
 
-export default function MegaMenu({ item, id }: Props) {
+export default function MegaMenu({ item, id, onNavigate }: Props) {
   return (
     <div
       id={id}
@@ -30,6 +31,7 @@ export default function MegaMenu({ item, id }: Props) {
                 <li key={link.label}>
                   <Link
                     href={link.href}
+                    onClick={onNavigate}
                     className="group flex items-center gap-3 text-[14px] font-bold uppercase tracking-wide text-[#3F3F46] transition-colors hover:text-[#4267D5]"
                   >
                     <Icon
@@ -58,6 +60,7 @@ export default function MegaMenu({ item, id }: Props) {
           />
           <Link
             href="#"
+            onClick={onNavigate}
             className="absolute inset-x-3 bottom-3 flex items-center justify-center rounded-xl bg-[#7656E8] px-4 py-4 text-center text-[12px] font-semibold uppercase text-white"
           >
             {item.cta}
