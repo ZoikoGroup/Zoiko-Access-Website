@@ -167,7 +167,7 @@ export const MENU: readonly MenuItem[] = [
     columns: [
       [
         l("Provider institutions", Hospital, "/provider-institutions"),
-        l("Hospitals & clinics", Hospital, "/hospitals-clinic-networks"),
+        l("Hospitals & clinics", Hospital, "/hospitals-clinics"),
         l("Private practices", Stethoscope, "/private-practices"),
         l("Outpatient services", User, "/outpatient-services"),
       ],
