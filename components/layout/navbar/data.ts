@@ -175,7 +175,7 @@ export const MENU: readonly MenuItem[] = [
         l("Care operations", ClipboardList, "/care-operations"),
         l("Scheduling", CalendarDays, "/scheduling-patient-access"),
         l("Referral intake & routing", ArrowRight, "/referral-intake-routing"),
-        l("Discharge & transitions", ArrowLeftRight, "/discharge-transitions"),
+        l("Discharge & transitions", ArrowLeftRight, "/discharge-transition-support"),
       ],
       [
         l("Technology & adoption", Cpu, "/technology-adoption"),
@@ -184,7 +184,7 @@ export const MENU: readonly MenuItem[] = [
         l(
           "Speak with our institutional team",
           MessageCircle,
-          "/contact-institutional-team",
+          "/institutional-team",
         ),
       ],
     ],

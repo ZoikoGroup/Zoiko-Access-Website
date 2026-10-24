@@ -4,7 +4,6 @@ import {
   Target,
   Building2,
   Search,
-  Pill,
   Home,
   ArrowRight,
 } from "lucide-react";
