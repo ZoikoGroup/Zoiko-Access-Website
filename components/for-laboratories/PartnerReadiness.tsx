@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { CheckSquare } from "lucide-react";
 
 const col1Items = [
   "Facility country and laboratory entity",

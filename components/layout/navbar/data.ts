@@ -211,7 +211,7 @@ export const MENU: readonly MenuItem[] = [
       [
         l("Partner connectivity", Network, "/partner-connectivity"),
         l("Lab & imaging integration", Plug, "/lab-imaging-integration"),
-        l("Pharmacy partnerships", Handshake, "/pharmacy-partnerships"),
+        l("Pharmacy partnerships", Handshake, "/pharmacy-partnership"),
         l("Safety & escalation", AlertTriangle, "/safety-escalation"),
       ],
     ],
