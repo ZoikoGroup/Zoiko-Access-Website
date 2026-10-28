@@ -219,13 +219,13 @@ export const MENU: readonly MenuItem[] = [
   {
     label: "Payers & Insurers",
     cta: "Explore payer solutions",
-    ctaHref: "/for-payers-insurers",
+    ctaHref: "/payers-insurers",
     image: "/navbar/6.jpg",
     imageAlt: "Clinic staff meeting with patients in a consulting room",
     columns: [
       [
         l("Coverage & access", Shield, "/coverage-access"),
-        l("For payers & insurers", Wallet, "/for-payers-insurers"),
+        l("For payers & insurers", Wallet, "/payers-insurers"),
         l("Eligibility & benefits", Contact, "/eligibility-benefits"),
         l("Prior authorization", FileCheck, "/prior-authorizations"),
       ],

@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   experimental: {
     agentFeedback: true,
+    cpus: 4,
   },
   cacheComponents: true,
   partialPrefetching: true,
