@@ -150,7 +150,7 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
       { label: "Prior authorizations", href: "/prior-authorizations" },
       { label: "Claims coordination", href: "/claims-coordination" },
       { label: "Member access experience", href: "/member-access-experience" },
-      { label: "Payer integration", href: "/payer-integration" },
+      { label: "Payer integration", href: "/payer-integrations-governance" },
     ],
   },
   {
