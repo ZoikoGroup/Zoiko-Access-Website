@@ -1,0 +1,12 @@
+export { default as ClaimsGovernanceHero } from "./ClaimsGovernanceHero";
+export { default as FourStages } from "./FourStages";
+export { default as ClaimVocabulary } from "./ClaimVocabulary";
+export { default as LifecycleMap } from "./LifecycleMap";
+export { default as DecisionAuthority } from "./DecisionAuthority";
+export { default as GovernancePrinciples } from "./GovernancePrinciples";
+export { default as RemittanceReconciliation } from "./RemittanceReconciliation";
+export { default as ExceptionsProcesses } from "./ExceptionsProcesses";
+export { default as ExchangePrivacyVariance } from "./ExchangePrivacyVariance";
+export { default as NextStepsByAudience } from "./NextStepsByAudience";
+export { default as ClaimsGovernanceFaq } from "./ClaimsGovernanceFaq";
+export { default as ClaimsGovernanceCta } from "./ClaimsGovernanceCta";

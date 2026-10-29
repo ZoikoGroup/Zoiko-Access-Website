@@ -1,0 +1,11 @@
+export { default as BecomePartnerHero } from "./BecomePartnerHero";
+export { default as WhoItServes } from "./WhoItServes";
+export { default as DiscussionAreas } from "./DiscussionAreas";
+export { default as PartnerResponsibilities } from "./PartnerResponsibilities";
+export { default as PartnerReadiness } from "./PartnerReadiness";
+export { default as PartnershipPathway } from "./PartnershipPathway";
+export { default as CoverageAndClaims } from "./CoverageAndClaims";
+export { default as TechnicalDiligence } from "./TechnicalDiligence";
+export { default as InstitutionalEnquiry } from "./InstitutionalEnquiry";
+export { default as BecomePartnerFaq } from "./BecomePartnerFaq";
+export { default as BecomePartnerCta } from "./BecomePartnerCta";
