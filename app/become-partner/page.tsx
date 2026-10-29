@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Poppins, Inter } from "next/font/google";
 import {
   BecomePartnerHero,
   WhoItServes,
@@ -13,6 +14,20 @@ import {
   BecomePartnerCta,
 } from "@/components/become-partner";
 
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-poppins",
+  display: "swap",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: "Become a Partner | Zoiko Access",
   description:
@@ -21,7 +36,9 @@ export const metadata: Metadata = {
 
 export default function BecomePartnerPage() {
   return (
-    <main className="w-full min-h-screen bg-white">
+    <main
+      className={`${poppins.variable} ${inter.variable} font-inter w-full min-h-screen bg-white`}
+    >
       {/* 1. Hero (new design) */}
       <BecomePartnerHero />
 
