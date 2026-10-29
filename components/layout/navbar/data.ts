@@ -233,11 +233,11 @@ export const MENU: readonly MenuItem[] = [
         l("Claims & governance", Scale, "/claims-governance"),
         l("Claims & remittance", Receipt, "/claims-coordination"),
         l("Member access", KeyRound, "/member-access-experience"),
-        l("Payer integration", Plug, "/payer-integration"),
+        l("Payer integration", Plug, "/payer-integrations-governance"),
       ],
       [
         l("Become a partner", Handshake, "/become-a-payer-partner"),
-        l("Talk to our payer team", MessageCircle, "/contact-payer-team"),
+        l("Talk to our payer team", MessageCircle, "/payer-solutions-team"),
         l("Implementation approach", Network, "/implementation-approach"),
       ],
     ],
