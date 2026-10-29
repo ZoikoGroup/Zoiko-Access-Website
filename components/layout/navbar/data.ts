@@ -175,7 +175,7 @@ export const MENU: readonly MenuItem[] = [
         l("Care operations", ClipboardList, "/care-operations"),
         l("Scheduling", CalendarDays, "/scheduling-patient-access"),
         l("Referral intake & routing", ArrowRight, "/referral-intake-routing"),
-        l("Discharge & transitions", ArrowLeftRight, "/discharge-transitions"),
+        l("Discharge & transitions", ArrowLeftRight, "/discharge-transition-support"),
       ],
       [
         l("Technology & adoption", Cpu, "/technology-adoption"),
@@ -184,7 +184,7 @@ export const MENU: readonly MenuItem[] = [
         l(
           "Speak with our institutional team",
           MessageCircle,
-          "/contact-institutional-team",
+          "/institutional-team",
         ),
       ],
     ],
@@ -211,7 +211,7 @@ export const MENU: readonly MenuItem[] = [
       [
         l("Partner connectivity", Network, "/partner-connectivity"),
         l("Lab & imaging integration", Plug, "/lab-imaging-integration"),
-        l("Pharmacy partnerships", Handshake, "/pharmacy-partnerships"),
+        l("Pharmacy partnerships", Handshake, "/pharmacy-partnership"),
         l("Safety & escalation", AlertTriangle, "/safety-escalation"),
       ],
     ],
@@ -219,13 +219,13 @@ export const MENU: readonly MenuItem[] = [
   {
     label: "Payers & Insurers",
     cta: "Explore payer solutions",
-    ctaHref: "/for-payers-insurers",
+    ctaHref: "/payers-insurers",
     image: "/navbar/6.jpg",
     imageAlt: "Clinic staff meeting with patients in a consulting room",
     columns: [
       [
         l("Coverage & access", Shield, "/coverage-access"),
-        l("For payers & insurers", Wallet, "/for-payers-insurers"),
+        l("For payers & insurers", Wallet, "/payers-insurers"),
         l("Eligibility & benefits", Contact, "/eligibility-benefits"),
         l("Prior authorization", FileCheck, "/prior-authorizations"),
       ],
@@ -233,11 +233,11 @@ export const MENU: readonly MenuItem[] = [
         l("Claims & governance", Scale, "/claims-governance"),
         l("Claims & remittance", Receipt, "/claims-coordination"),
         l("Member access", KeyRound, "/member-access-experience"),
-        l("Payer integration", Plug, "/payer-integration"),
+        l("Payer integration", Plug, "/payer-integrations-governance"),
       ],
       [
         l("Become a partner", Handshake, "/become-a-payer-partner"),
-        l("Talk to our payer team", MessageCircle, "/contact-payer-team"),
+        l("Talk to our payer team", MessageCircle, "/payer-solutions-team"),
         l("Implementation approach", Network, "/implementation-approach"),
       ],
     ],
