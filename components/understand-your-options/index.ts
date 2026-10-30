@@ -1,0 +1,12 @@
+export { default as Hero } from "./Hero";
+export { default as ChildPaths } from "./ChildPaths";
+export { default as HowItWorksPreview } from "./HowItWorksPreview";
+export { default as ServicesSection } from "./ServicesSection";
+export { default as PathwaysSection } from "./PathwaysSection";
+export { default as LocationSection } from "./LocationSection";
+export { default as InformationQuality } from "./InformationQuality";
+export { default as DecisionResponsibility } from "./DecisionResponsibility";
+export { default as DecisionHelp } from "./DecisionHelp";
+export { default as ComparisonSection } from "./ComparisonSection";
+export { default as FaqSection } from "./FaqSection";
+export { default as CtaSection } from "./CtaSection";
