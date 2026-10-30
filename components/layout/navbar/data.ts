@@ -343,7 +343,7 @@ export const MENU: readonly MenuItem[] = [
     columns: [
       [
         l("Our company", Building2, "/about-us"),
-        l("Company overview", FileText, "/about-us"),
+        l("Company overview", FileText, "/organisation-overview"),
         l("Mission & approach", Target, "/about-us"),
         l("Leadership & governance", Users, "/about-us"),
       ],
