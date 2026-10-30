@@ -178,7 +178,7 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
     title: "Company",
     icon: Briefcase,
     links: [
-      { label: "Company overview", href: "/about-us" },
+      { label: "Company overview", href: "/organisation-overview" },
       { label: "Mission & approach", href: "/about-us" },
       { label: "Leadership & governance", href: "/about-us" },
       { label: "Privacy & trust center", href: "/privacy-permissions" },
