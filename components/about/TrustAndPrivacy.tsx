@@ -87,7 +87,7 @@ export default function TrustAndPrivacy() {
 
             <div className="mt-8 pt-4">
               <Link
-                href="#"
+                href="/privacy-permissions"
                 className="inline-flex items-center gap-2 rounded-lg border border-[#C9D3F2] bg-white px-5 py-3 text-[14px] font-semibold text-[#2F55C7] transition-colors hover:bg-[#F7F8FF]"
               >
                 Explore privacy &amp; trust principles

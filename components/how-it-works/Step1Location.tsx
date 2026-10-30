@@ -45,7 +45,7 @@ export default function Step1Location() {
 
             <div className="mt-8">
               <Link
-                href="#local-context"
+                href="/locations-availability"
                 className="inline-flex items-center justify-center rounded-[7px] bg-[#6547BF] px-5 py-[13px] text-[13px] font-semibold text-white shadow-sm transition-all hover:bg-[#5237a3] hover:shadow-md active:scale-[0.98]"
               >
                 Understand location context →

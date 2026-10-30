@@ -108,7 +108,7 @@ export default function HomeHero() {
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
             <Link
-              href="#"
+              href="/hospitals-clinics"
               className="inline-flex min-h-[50px] items-center rounded-md border border-[#B5CCEC] bg-white px-[22px] text-[15px] font-semibold text-[#2F55C7] transition-colors hover:bg-[#F7F8FF]"
             >
               For healthcare organizations

@@ -39,7 +39,7 @@ const roleCards: RoleCard[] = [
 
 export default function WholeCareTeamWorklists() {
   return (
-    <section className="w-full bg-white py-16 lg:py-24">
+    <section id="learn-more" className="w-full bg-white py-16 lg:py-24">
       <div className="mx-auto max-w-[1240px] px-6 sm:px-10 lg:px-12">
         {/* Eyebrow */}
         <div className="mb-3 inline-flex items-center gap-2.5 text-[11px] font-bold tracking-[0.14em] text-[#6d5ae6] uppercase">

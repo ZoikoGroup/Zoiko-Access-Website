@@ -23,7 +23,7 @@ export default function FulfillmentCta() {
         </p>
         <div className="flex w-full flex-wrap justify-center gap-[12px] pt-[12px]">
           <Link
-            href="/pharmacy-services"
+            href="/for-pharmacies"
             className={`${fontPoppins} flex items-center justify-center rounded-[8px] border border-solid border-transparent bg-white px-[22px] py-[12px] text-center text-[15.2px] font-semibold leading-[25px] text-[#4267d5]`}
           >
             Explore pharmacy services

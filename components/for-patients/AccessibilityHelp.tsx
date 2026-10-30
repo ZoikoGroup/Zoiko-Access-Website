@@ -52,7 +52,7 @@ export default function AccessibilityHelp() {
             Read support guidance →
           </Link>
           <Link
-            href="#"
+            href="/about-us"
             className="inline-flex min-h-12 items-center rounded-md border border-[#C9D3F2] bg-white px-5 text-[13px] font-semibold text-[#BDB0FA] transition-colors hover:text-[#6A44D4]"
           >
             Inclusive-access principles

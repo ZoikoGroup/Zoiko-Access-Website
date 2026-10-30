@@ -14,7 +14,7 @@ export default function CoordinationAreas() {
       description:
         "Understand how an authorized referral request is sent, received and acknowledged between organizations.",
       linkText: "Explore referral coordination",
-      linkHref: "#referral-coordination",
+      linkHref: "/referral-coordination",
     },
     {
       image: "/for-clinicians/fc8.jpg",
@@ -24,7 +24,7 @@ export default function CoordinationAreas() {
       description:
         "See how a patient's move between services is handed off, and who owns each step.",
       linkText: "Explore care transitions",
-      linkHref: "#care-transitions",
+      linkHref: "/care-transitions",
     },
     {
       image: "/for-clinicians/fc9.jpg",
@@ -34,7 +34,7 @@ export default function CoordinationAreas() {
       description:
         "Learn how follow-up tasks and their owners are made visible to the right team.",
       linkText: "Explore worklists and tasks",
-      linkHref: "#worklists-tasks",
+      linkHref: "/task-worklist-experience",
     },
   ];
 
@@ -47,7 +47,7 @@ export default function CoordinationAreas() {
       description:
         "Understand why a published result is not the same as a clinical review.",
       linkText: "Explore results and handoffs",
-      linkHref: "#results-handoffs",
+      linkHref: "/clinicians-results-handoffs",
     },
     {
       image: "/for-clinicians/fc11.jpg",
@@ -57,12 +57,12 @@ export default function CoordinationAreas() {
       description:
         "See the purpose, recipient and channel of permitted clinical messages, where available.",
       linkText: "Explore professional communications",
-      linkHref: "#professional-communications",
+      linkHref: "/secure-communication",
     },
   ];
 
   return (
-    <section className="w-full bg-[#f4f1ff] py-16 lg:py-24 border-t border-[#eee9ff]">
+    <section id="clinical-coordination" className="w-full bg-[#f4f1ff] py-16 lg:py-24 border-t border-[#eee9ff]">
       <div className="mx-auto max-w-[1240px] px-6 sm:px-10 lg:px-12">
         {/* Eyebrow */}
         <div className="mb-3 inline-flex items-center gap-2.5 text-[11px] font-bold tracking-[0.14em] text-[#6d5ae6] uppercase">

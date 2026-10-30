@@ -9,17 +9,17 @@ const content = {
   buttons: [
     {
       text: "Explore how it works",
-      href: "#",
+      href: "/how-it-works",
       primary: true,
     },
     {
       text: "Explore partnerships",
-      href: "#",
+      href: "/become-partner",
       primary: false,
     },
     {
       text: "Check availability",
-      href: "#",
+      href: "/locations-availability",
       primary: false,
     },
   ],

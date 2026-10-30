@@ -8,19 +8,19 @@ const navigationData = [
       {
         title: "How Zoiko Access works",
         description: "Read the detailed four-step educational guide.",
-        href: "#",
+        href: "/how-it-works",
       },
       {
         title: "Explore healthcare services",
         description:
           "Understand six broad service categories without treatment recommendations.",
-        href: "#",
+        href: "/healthcare-services",
       },
       {
         title: "Care pathways explained",
         description:
           "Learn how appointments, tests, and handoffs may fit together.",
-        href: "#",
+        href: "/care-pathways",
       },
     ],
   },
@@ -31,13 +31,13 @@ const navigationData = [
         title: "Healthcare professionals",
         description:
           "Understand distinct professional roles and clinical authority.",
-        href: "#",
+        href: "/healthcare-professionals",
       },
       {
         title: "Locations and availability",
         description:
           "Review location context and the informational status of this preview.",
-        href: "#",
+        href: "/locations-availability",
       },
     ],
   },
@@ -48,7 +48,7 @@ const navigationData = [
         title: "How referrals work",
         description:
           "Understand delivery, receiving acceptance, and clinical review.",
-        href: "#",
+        href: "/how-referrals-work",
       },
     ],
   },

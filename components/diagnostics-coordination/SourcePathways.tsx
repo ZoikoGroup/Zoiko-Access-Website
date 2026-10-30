@@ -18,7 +18,7 @@ const pathways = [
     title: "Imaging & radiology",
     text: "Radiology workflow systems (RIS), image archives (PACS) and radiologist reports.",
     d: ["Radiology workflow systems (RIS), image archives (PACS) and", "radiologist reports."],
-    href: "/imaging-radiology",
+    href: "/lab-imaging-integration",
     src: "pathway-imaging",
     photo: "h-[330px]",
     alt: "A forested hillside in morning mist",

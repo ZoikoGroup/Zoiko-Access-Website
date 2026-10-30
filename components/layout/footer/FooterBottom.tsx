@@ -9,7 +9,7 @@ export default function FooterBottom() {
         <div className="max-w-[1000px]">
           <ul className="flex flex-wrap gap-x-7 gap-y-2">
             {LEGAL_LINKS.map((link) => (
-              <li key={link.href}>
+              <li key={link.label}>
                 <Link
                   href={link.href}
                   className="text-[14px] font-semibold text-[#4267D5] hover:underline"

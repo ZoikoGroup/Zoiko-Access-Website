@@ -9,14 +9,14 @@ const resources: {
   href: string;
 }[] = [
   { title: "For laboratories", text: "LIS order and result responsibilities.", href: "/for-laboratories" },
-  { title: "Imaging & radiology", text: "RIS/PACS pathways and report handoffs.", href: "/imaging-radiology" },
+  { title: "Imaging & radiology", text: "RIS/PACS pathways and report handoffs.", href: "/lab-imaging-integration" },
   { title: "Lab & imaging integration", text: "Technical assessment of partner interfaces.", href: "/lab-imaging-integration" },
   { title: "Referral intake & routing", text: "Hospitals and clinics.", href: "/referral-intake-routing" },
   {
     title: "Patient health information access",
     titleD: ["Patient health information", "access"],
     text: "Source-linked access, where authorized.",
-    href: "/patient-health-information-access",
+    href: "/privacy-permissions",
   },
 ];
 

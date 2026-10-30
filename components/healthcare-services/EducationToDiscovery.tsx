@@ -30,7 +30,7 @@ export default function EducationToDiscovery() {
           </p>
 
           <Link
-            href="#"
+            href="/how-it-works"
             className="inline-flex min-h-12 items-center rounded-md bg-[#4267D5] px-5 text-[13px] font-semibold text-white transition-opacity hover:opacity-90"
           >
             Learn how services are discovered →

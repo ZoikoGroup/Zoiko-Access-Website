@@ -17,7 +17,7 @@ const links: {
   },
   {
     label: "Partners & developers",
-    href: "/partners-developers",
+    href: "/become-partner",
     src: "read-partners-developers",
     box: { top: -3.12, height: 106.24 },
   },

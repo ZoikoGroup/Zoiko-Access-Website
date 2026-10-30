@@ -50,7 +50,7 @@ export default function PrivacyChoice() {
             ))}
           </ul>
           <Link
-            href="#"
+            href="/privacy-permissions"
             className="mt-6 inline-flex min-h-12 items-center rounded-lg bg-[#5B45D6] px-6 text-[15px] font-semibold text-white transition-opacity hover:opacity-90"
           >
             Privacy &amp; permissions

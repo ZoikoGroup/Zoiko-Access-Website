@@ -14,6 +14,7 @@ import SectionHeading from "./SectionHeading";
 const CARDS = [
   {
     title: "Clinicians",
+    href: "/for-clinicians",
     text: "Explore accountable clinical roles, coordination, and authorized care-team participation.",
     image: "/home/role-clinicians.webp",
     alt: "Clinicians reviewing patient documents around a table",
@@ -21,6 +22,7 @@ const CARDS = [
   },
   {
     title: "Hospitals & Clinics",
+    href: "/hospitals-clinics",
     text: "Understand institutional scheduling, referrals, and operational coordination where supported.",
     image: "/home/role-hospitals.webp",
     alt: "Hospital staff meeting around a conference table",
@@ -28,6 +30,7 @@ const CARDS = [
   },
   {
     title: "Labs & Pharmacies",
+    href: "/labs-pharmacies",
     text: "Review diagnostic and pharmacy partner roles within approved services.",
     image: "/home/role-labs.webp",
     alt: "Laboratory scientist working at a lab bench",
@@ -35,6 +38,7 @@ const CARDS = [
   },
   {
     title: "Payers & Insurers",
+    href: "/payers-insurers",
     text: "Understand benefits and governance without implying individual clinical record access.",
     image: "/home/role-payers.webp",
     alt: "Colleagues working at desks in a high-rise office",
@@ -42,6 +46,7 @@ const CARDS = [
   },
   {
     title: "Organizations",
+    href: "/institutional-team",
     text: "Explore employer and public-sector participation with clear privacy boundaries.",
     image: "/home/role-organizations.webp",
     alt: "Team meeting around a table with city views",
@@ -49,6 +54,7 @@ const CARDS = [
   },
   {
     title: "Partners & Developers",
+    href: "/become-partner",
     text: "Understand integration principles and approval for partner-specific capabilities.",
     image: "/home/role-partners.webp",
     alt: "Developers collaborating at multi-monitor workstations",
@@ -104,7 +110,7 @@ export default function EcosystemRoles() {
                 </p>
 
                 <Link
-                  href="#"
+                  href={card.href}
                   className="mt-5 inline-flex min-h-[44px] w-fit items-center gap-1.5 rounded bg-[#4267D5] px-2.5 text-[13px] font-semibold text-white transition-opacity hover:opacity-90"
                 >
                   Explore this pathway

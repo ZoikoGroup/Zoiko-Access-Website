@@ -76,7 +76,7 @@ const audiences = [
 
 export default function WhoWeServe() {
   return (
-    <section className="relative w-full overflow-hidden bg-white py-20 font-sans sm:py-28">
+    <section id="who-we-serve" className="relative w-full overflow-hidden bg-white py-20 font-sans sm:py-28">
       <div className="relative mx-auto max-w-[1440px] px-6 sm:px-10 lg:px-12">
         {/* Header */}
         <div className="max-w-3xl">

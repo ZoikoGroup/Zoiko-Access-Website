@@ -61,7 +61,7 @@ export default function CliniciansHero() {
                 Explore clinical coordination
               </Link>
               <Link
-                href="#clinical-responsibility"
+                href="/clinical-responsibility"
                 className="inline-flex items-center justify-center rounded-xl border border-[#0d1b4a] bg-white px-6 py-3.5 text-[14px] font-semibold text-[#0d1b4a] shadow-sm transition hover:bg-slate-50"
               >
                 Understand clinical responsibility

@@ -12,11 +12,11 @@ const content = {
   buttons: {
     primary: {
       text: "Explore partnership principles",
-      href: "#",
+      href: "/become-partner",
     },
     secondary: {
       text: "Partners & Developers",
-      href: "#",
+      href: "/become-partner",
     },
   },
   image: {

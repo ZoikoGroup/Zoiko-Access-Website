@@ -40,7 +40,7 @@ export default function NotListed() {
               Learn how it works
             </Link>
             <Link
-              href="#"
+              href="/talk-to-support"
               className="inline-flex min-h-12 items-center rounded-xl bg-white px-6 text-[16px] font-semibold text-[#8B78EE] transition-colors hover:bg-[#F7F5FF]"
             >
               Talk to support (where published)
