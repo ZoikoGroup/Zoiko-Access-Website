@@ -9,12 +9,12 @@ const content = {
   buttons: [
     {
       text: "Understand handoff statuses",
-      href: "#",
+      href: "/clinicians-results-handoffs",
       variant: "primary",
     },
     {
       text: "Explore referral coordination",
-      href: "#",
+      href: "/referral-coordination",
       variant: "outline",
     },
   ],

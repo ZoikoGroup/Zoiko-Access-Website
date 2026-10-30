@@ -42,7 +42,7 @@ const problems = [
     icon: KeyRound,
     title: "You may already have an account",
     text: "We can’t say. Sign in or recover your account to continue.",
-    link: { text: "Sign in or recover account", href: "#" },
+    link: { text: "Sign in or recover account", href: "/talk-to-support" },
   },
   {
     icon: Users,

@@ -14,7 +14,7 @@ const CARDS = [
     title: "For institutions & partners",
     text: "Understand where your organization fits in the ecosystem.",
     link: "Explore your pathway",
-    href: "#",
+    href: "/hospitals-clinics",
     variant: "outline",
   },
 ] as const;

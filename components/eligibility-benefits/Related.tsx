@@ -16,7 +16,7 @@ const items: Item[] = [
     title: "Prior authorizations",
     text: "Staged request states with a named decision owner.",
     d: ["Staged request states with a", "named decision owner."],
-    route: "/payers-insurers/authorizations",
+    route: "/prior-authorizations",
     rd: ["/payers-", "insurers/authorizations"],
   },
   {
@@ -24,7 +24,7 @@ const items: Item[] = [
     td: ["Member access", "experience"],
     text: "How plan entitlements are shown responsibly to members.",
     d: ["How plan entitlements are shown", "responsibly to members."],
-    route: "/payers-insurers/member-access",
+    route: "/member-access",
     rd: ["/payers-insurers/member-", "access"],
   },
   {
@@ -32,7 +32,7 @@ const items: Item[] = [
     td: ["Payer integrations &", "governance"],
     text: "Source-controlled exchange, role governance and audit.",
     d: ["Source-controlled exchange, role", "governance and audit."],
-    route: "/payers-insurers/integrations",
+    route: "/payer-integrations-governance",
     rd: ["/payers-", "insurers/integrations"],
   },
   {
@@ -40,7 +40,7 @@ const items: Item[] = [
     td: ["Implementation", "approach"],
     text: "Legal, security and operational prerequisites.",
     d: ["Legal, security and operational", "prerequisites."],
-    route: "/payers-insurers/implementation",
+    route: "/implementation-approach",
     rd: ["/payers-", "insurers/implementation"],
   },
 ];

@@ -26,7 +26,7 @@ const stepsData = [
 
 export default function FourStepsCoordination() {
   return (
-    <section className="relative w-full overflow-hidden bg-gradient-to-b from-white via-[#EBE9FB] to-white py-16 font-sans">
+    <section id="how-coordination-works" className="relative w-full overflow-hidden bg-gradient-to-b from-white via-[#EBE9FB] to-white py-16 font-sans">
       <div className="relative mx-auto max-w-7xl px-6 sm:px-10 lg:px-12">
         {/* Header */}
         <div className="max-w-3xl">

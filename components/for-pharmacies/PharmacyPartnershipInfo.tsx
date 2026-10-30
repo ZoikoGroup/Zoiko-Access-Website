@@ -31,7 +31,7 @@ export default function PharmacyPartnershipInfo() {
           {/* Action Button & Gated Pill */}
           <div className="mt-8 flex items-center justify-center gap-3">
             <Link
-              href="#"
+              href="/pharmacy-partnership"
               className="inline-flex items-center justify-center rounded-xl bg-[#7657E8] px-6 py-3.5 text-xs font-medium text-white shadow-lg shadow-purple-900/20 transition-all hover:bg-[#6C4AEC] sm:text-sm"
             >
               Pharmacy partnership

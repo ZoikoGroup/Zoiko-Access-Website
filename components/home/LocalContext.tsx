@@ -76,7 +76,7 @@ export default function LocalContext() {
           </div>
 
           <Link
-            href="#"
+            href="/become-partner"
             className="inline-flex min-h-[50px] w-fit shrink-0 items-center gap-1.5 rounded-md bg-white px-[22px] text-[14px] font-semibold text-[#4267D5] transition-opacity hover:opacity-90"
           >
             Explore partner opportunities

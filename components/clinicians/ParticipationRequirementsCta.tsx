@@ -7,7 +7,7 @@ const content = {
   description:
     "A secure application is available only where the market and a verified intake route are both active. Until then, start with the requirements.",
   buttonText: "See participation requirements",
-  buttonHref: "#",
+  buttonHref: "#req",
   backgroundImage: {
     src: "/prof/16.png",
     alt: "Professional team discussing participation requirements",

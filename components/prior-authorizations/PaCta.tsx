@@ -32,7 +32,7 @@ export default function PaCta() {
             Explore payer coordination →
           </Link>
           <Link
-            href="/payers-insurers/implementation"
+            href="/implementation-approach"
             className="border-b-2 border-solid border-[#b7a6ff] py-1 text-[16px] font-semibold leading-[25.6px] text-white"
           >
             Learn about our implementation approach →

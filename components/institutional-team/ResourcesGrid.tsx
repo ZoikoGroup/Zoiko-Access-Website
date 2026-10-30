@@ -72,7 +72,7 @@ const resources: {
     text: "How information is protected. Linked only when published.",
     d: ["How information is", "protected. Linked only when", "published."],
     m: ["How information is protected. Linked only when", "published."],
-    href: "/trust-privacy",
+    href: "/privacy-permissions",
     src: "resource-trust-privacy",
     box: { left: -3.52, width: 107.03 },
     mbox: { top: -24.79, height: 149.57 },

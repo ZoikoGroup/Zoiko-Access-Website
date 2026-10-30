@@ -24,7 +24,7 @@ const topics = [
     text: "Status coordination, not settlement.",
     image: img("finance-documents"),
     alt: "Financial forms and a calculator on a desk",
-    href: "/claims-coordination",
+    href: "/claims-remittance",
     link: "Read the topic",
   },
   {
@@ -32,7 +32,7 @@ const topics = [
     text: "Permission-bound member journeys.",
     image: img("member-on-a-laptop"),
     alt: "Person pointing at a laptop screen",
-    href: "/member-access-experience",
+    href: "/member-access",
     link: "Read the topic",
   },
   {

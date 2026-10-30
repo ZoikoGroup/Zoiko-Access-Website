@@ -55,7 +55,7 @@ export default function HandoffsHero() {
                 <ArrowRight className="h-4 w-4" />
               </Link>
               <Link
-                href="#clinical-organizations"
+                href="/hospitals-clinics"
                 className="inline-flex items-center justify-center rounded-xl border border-slate-200 bg-white px-6 py-3.5 text-[13.5px] font-semibold text-slate-700 shadow-xs transition hover:bg-slate-50"
               >
                 For clinical organizations

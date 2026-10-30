@@ -106,14 +106,14 @@ export default function AboutHero() {
             className="mt-9 flex flex-wrap items-center gap-4"
           >
             <Link
-              href="#"
+              href="/how-it-works"
               className="inline-flex items-center gap-2 rounded-lg bg-[#4267D5] px-6 py-3.5 text-[14px] font-semibold text-white shadow-[0_10px_24px_rgba(66,103,213,0.3)] transition-opacity hover:opacity-90"
             >
               Explore our approach
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
             <Link
-              href="#"
+              href="#who-we-serve"
               className="inline-flex items-center rounded-lg border border-[#C9D3F2] bg-white px-6 py-3.5 text-[14px] font-semibold text-[#2F55C7] transition-colors hover:bg-[#F7F8FF]"
             >
               Who we serve

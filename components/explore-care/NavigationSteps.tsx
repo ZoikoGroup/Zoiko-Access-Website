@@ -30,7 +30,7 @@ const content = {
   title: "Four steps toward a more understandable journey.",
   button: {
     text: "Read the full guide",
-    href: "#",
+    href: "/how-it-works",
   },
   image: {
     src: "/explore/2.png",

@@ -7,7 +7,7 @@ export default function AboutCta() {
     <div className="bg-gradient-to-r from-[#EEEAFE] via-[#EEEAFE] to-[#C8B8FF]">
       <div className="mx-auto flex max-w-[1440px] flex-col gap-8 px-6 py-10 sm:px-10 lg:flex-row lg:items-center lg:justify-between lg:px-12">
         <div className="flex flex-col items-start gap-6 lg:flex-row lg:items-center lg:gap-24">
-          <Link href="#" aria-label="Zoiko Access home">
+          <Link href="/" aria-label="Zoiko Access home">
             <Image
               src="/logo.png"
               alt="Zoiko Access"
@@ -29,14 +29,14 @@ export default function AboutCta() {
 
         <div className="flex flex-wrap items-center gap-3">
           <Link
-            href="#"
+            href="/how-it-works"
             className="inline-flex items-center gap-4 rounded-lg bg-[#4267D5] px-6 py-3.5 text-[14px] font-semibold text-white transition-opacity hover:opacity-90"
           >
             Explore how it works
             <ArrowRight className="h-4 w-4" aria-hidden="true" />
           </Link>
           <Link
-            href="#"
+            href="/hospitals-clinics"
             className="inline-flex items-center rounded-lg border border-[#E1E4F2] bg-white px-6 py-3.5 text-[14px] font-semibold text-[#4267D5] transition-colors hover:bg-[#F7F6FF]"
           >
             For healthcare organizations

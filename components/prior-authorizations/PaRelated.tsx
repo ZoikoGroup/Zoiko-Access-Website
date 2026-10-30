@@ -4,9 +4,9 @@ import { Title, inner, sectionPad, sectionY } from "./ui";
 
 const links = [
   { title: "Eligibility & Benefits", text: "Why eligibility is not approval", href: "/eligibility-benefits" },
-  { title: "Claims & Remittance Coordination", text: "Status coordination, not settlement", href: "/payers-insurers/claims" },
-  { title: "Payer Integrations & Governance", text: "Source-controlled, audited exchange", href: "/payers-insurers/integrations" },
-  { title: "Implementation Approach", text: "Prerequisites before engagement", href: "/payers-insurers/implementation" },
+  { title: "Claims & Remittance Coordination", text: "Status coordination, not settlement", href: "/claims-remittance" },
+  { title: "Payer Integrations & Governance", text: "Source-controlled, audited exchange", href: "/payer-integrations-governance" },
+  { title: "Implementation Approach", text: "Prerequisites before engagement", href: "/implementation-approach" },
 ];
 
 export default function PaRelated() {

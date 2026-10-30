@@ -88,13 +88,13 @@ export default function ResultsReviewFaq() {
               {/* Action Buttons */}
               <div className="space-y-3">
                 <Link
-                  href="#explore-participation"
+                  href="/professional-onboarding"
                   className="block w-full rounded-xl bg-[#6d5ae6] py-2.5 px-4 text-center text-[12.5px] font-semibold text-white shadow-xs transition hover:bg-[#5b48db]"
                 >
                   Explore clinician participation
                 </Link>
                 <Link
-                  href="#organizational-integration"
+                  href="/clinical-partnerships-contact"
                   className="block w-full rounded-xl border border-slate-200 bg-white py-2.5 px-4 text-center text-[12.5px] font-semibold text-[#4338ca] shadow-2xs transition hover:border-slate-300 hover:bg-slate-50"
                 >
                   Discuss organizational integration

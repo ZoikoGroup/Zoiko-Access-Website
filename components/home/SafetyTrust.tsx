@@ -52,7 +52,7 @@ export default function SafetyTrust() {
           />
 
           <Link
-            href="#"
+            href="/clinical-responsibility"
             className="mt-6 inline-flex min-h-[50px] items-center gap-1.5 rounded-md border border-[#C9D3F2] bg-white px-[22px] text-[14px] font-semibold text-[#1F5FC9] transition-colors hover:bg-[#F7F8FF]"
           >
             How we approach safety

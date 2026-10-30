@@ -15,11 +15,11 @@ const heroContent = {
   buttons: {
     primary: {
       text: "How Zoiko Access works",
-      href: "#",
+      href: "/how-it-works",
     },
     secondary: {
       text: "Explore healthcare services",
-      href: "#",
+      href: "/healthcare-services",
     },
   },
   image: {
