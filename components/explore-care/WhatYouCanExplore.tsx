@@ -20,7 +20,7 @@ const exploreServicesData = [
       "Care professionals and local access arrangements vary.",
     ],
     linkText: "Understand care pathways",
-    linkHref: "#",
+    linkHref: "/care-pathways",
   },
   {
     icon: Target,
@@ -33,7 +33,7 @@ const exploreServicesData = [
       "Access and referral requirements depend on local rules.",
     ],
     linkText: "Understand care pathways",
-    linkHref: "#",
+    linkHref: "/care-pathways",
   },
   {
     icon: Building2,
@@ -46,7 +46,7 @@ const exploreServicesData = [
       "The responsible organization determines its services and access.",
     ],
     linkText: "Understand care pathways",
-    linkHref: "#",
+    linkHref: "/care-pathways",
   },
   {
     icon: Search,
@@ -59,7 +59,7 @@ const exploreServicesData = [
       "Orders, access, and result handling require authorized processes.",
     ],
     linkText: "Understand care pathways",
-    linkHref: "#",
+    linkHref: "/care-pathways",
   },
   {
     icon: Plus,
@@ -72,7 +72,7 @@ const exploreServicesData = [
       "Services, supply rules, and prescriptions depend on location.",
     ],
     linkText: "Understand care pathways",
-    linkHref: "#",
+    linkHref: "/care-pathways",
   },
   {
     icon: Home,
@@ -85,7 +85,7 @@ const exploreServicesData = [
       "Local safeguarding, licensing, and service conditions apply.",
     ],
     linkText: "Understand care pathways",
-    linkHref: "#",
+    linkHref: "/care-pathways",
   },
 ];
 

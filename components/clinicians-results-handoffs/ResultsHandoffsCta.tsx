@@ -38,7 +38,7 @@ export default function ResultsHandoffsCta() {
           {/* 3 Action Buttons */}
           <div className="flex flex-wrap items-center gap-3">
             <Link
-              href="#explore-participation"
+              href="/professional-onboarding"
               className="inline-flex items-center justify-center rounded-xl bg-white px-5 py-2.5 text-[13px] font-semibold text-slate-900 shadow-md transition hover:bg-slate-100"
             >
               Explore clinician participation
@@ -50,7 +50,7 @@ export default function ResultsHandoffsCta() {
               Clinicians overview
             </Link>
             <Link
-              href="#hospitals-clinics"
+              href="/hospitals-clinics"
               className="inline-flex items-center justify-center rounded-xl border border-white/40 bg-[#142d88]/60 px-5 py-2.5 text-[13px] font-semibold text-white shadow-xs backdrop-blur-xs transition hover:bg-white/15"
             >
               Hospitals &amp; clinics

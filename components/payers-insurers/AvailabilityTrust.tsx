@@ -72,7 +72,7 @@ export default function AvailabilityTrust() {
                 Privacy
               </Link>{" "}
               ·{" "}
-              <Link href="/security" className="text-[#4267d5] underline">
+              <Link href="/privacy-permissions" className="text-[#4267d5] underline">
                 Security
               </Link>
             </p>

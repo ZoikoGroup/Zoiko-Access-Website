@@ -44,13 +44,13 @@ export default function CliniciansCta() {
           {/* CTA Buttons */}
           <div className="flex flex-wrap items-center gap-3.5 sm:gap-4">
             <Link
-              href="#explore-coordination"
+              href="/referral-coordination"
               className="inline-flex items-center justify-center rounded-xl bg-white px-5 sm:px-6 py-3 text-[13.5px] font-semibold text-slate-900 shadow-lg transition hover:bg-slate-100"
             >
               Explore referral coordination
             </Link>
             <Link
-              href="#clinical-responsibility"
+              href="/clinical-responsibility"
               className="inline-flex items-center justify-center rounded-xl border border-white/50 bg-[#142d88]/60 px-5 sm:px-6 py-3 text-[13.5px] font-semibold text-white shadow-sm backdrop-blur-xs transition hover:bg-white/15"
             >
               Understand clinical responsibility

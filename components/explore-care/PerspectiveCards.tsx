@@ -10,7 +10,7 @@ const perspectivesData = [
     description:
       "Learn about services and responsibilities before deciding what information to explore next.",
     linkText: "Patient information",
-    linkHref: "#",
+    linkHref: "/for-patients",
   },
   {
     image: "/how-it-works/role-caregiver.png",
@@ -19,7 +19,7 @@ const perspectivesData = [
     description:
       "Explore caregiver guidance. Helping someone does not automatically grant permission or record access.",
     linkText: "Caregiver guidance",
-    linkHref: "#",
+    linkHref: "/for-caregivers",
   },
   {
     image: "/how-it-works/role-healthcare.png",
@@ -28,7 +28,7 @@ const perspectivesData = [
     description:
       "Explore clinician and institutional roles, authorized coordination, and professional accountability.",
     linkText: "Healthcare ecosystem",
-    linkHref: "#",
+    linkHref: "/healthcare-professionals",
   },
   {
     image: "/how-it-works/role-local.png",
@@ -37,7 +37,7 @@ const perspectivesData = [
     description:
       "Understand why location, participating organizations, and release approval are separate conditions.",
     linkText: "Location & availability",
-    linkHref: "#",
+    linkHref: "/locations-availability",
   },
 ];
 

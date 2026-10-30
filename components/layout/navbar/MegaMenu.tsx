@@ -59,7 +59,7 @@ export default function MegaMenu({ item, id, onNavigate }: Props) {
             className="object-cover opacity-80"
           />
           <Link
-            href="#"
+            href={item.ctaHref}
             onClick={onNavigate}
             className="absolute inset-x-3 bottom-3 flex items-center justify-center rounded-xl bg-[#7656E8] px-4 py-4 text-center text-[12px] font-semibold uppercase text-white"
           >

@@ -29,7 +29,7 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
     title: "Explore Care",
     icon: Heart,
     links: [
-      { label: "How Zoiko Access works", href: "/how-zoiko-access-works" },
+      { label: "How Zoiko Access works", href: "/how-it-works" },
       { label: "Explore healthcare services", href: "/healthcare-services" },
       { label: "Care pathways explained", href: "/care-pathways" },
       { label: "Healthcare professionals", href: "/healthcare-professionals" },
@@ -45,9 +45,9 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
       { label: "Privacy & permissions", href: "/privacy-permissions" },
       {
         label: "Health information access",
-        href: "/health-information-access",
+        href: "/privacy-permissions",
       },
-      { label: "Accessible help", href: "/accessible-help" },
+      { label: "Accessible help", href: "/talk-to-support" },
     ],
   },
   {
@@ -57,8 +57,8 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
       { label: "For clinicians", href: "/for-clinicians" },
       { label: "Referral coordination", href: "/referral-coordination" },
       { label: "Care transitions & follow-up", href: "/care-transitions" },
-      { label: "Tasks & worklists", href: "/tasks-worklists" },
-      { label: "Results & review handoffs", href: "/results-review-handoffs" },
+      { label: "Tasks & worklists", href: "/task-worklist-experience" },
+      { label: "Results & review handoffs", href: "/clinicians-results-handoffs" },
       { label: "Clinical responsibility", href: "/clinical-responsibility" },
     ],
   },
@@ -68,10 +68,10 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
     links: [
       {
         label: "Hospitals & clinic networks",
-        href: "/hospitals-clinic-networks",
+        href: "/hospitals-clinics",
       },
       { label: "Private practices", href: "/private-practices" },
-      { label: "Outpatient services", href: "/outpatient-services" },
+      { label: "Outpatient services", href: "/outpatient-specialist-services" },
       {
         label: "Scheduling & patient access",
         href: "/scheduling-patient-access",
@@ -85,10 +85,10 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
     title: "Partners & Developers",
     icon: Code2,
     links: [
-      { label: "Technology partners", href: "/technology-partners" },
-      { label: "Health-system vendors", href: "/health-system-vendors" },
-      { label: "API & interoperability", href: "/api-interoperability" },
-      { label: "SDKs, webhooks & events", href: "/sdks-webhooks-events" },
+      { label: "Technology partners", href: "/become-partner" },
+      { label: "Health-system vendors", href: "/become-partner" },
+      { label: "API & interoperability", href: "/ehr-interoperability" },
+      { label: "SDKs, webhooks & events", href: "/ehr-interoperability" },
       { label: "Integration security", href: "/integration-security" },
       { label: "Certification framework", href: "/certification-framework" },
     ],
@@ -97,15 +97,15 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
     title: "Resources",
     icon: BookOpen,
     links: [
-      { label: "Help center", href: "/help-center" },
+      { label: "Help center", href: "/talk-to-support" },
       { label: "FAQs", href: "/faqs" },
       {
         label: "Healthcare navigation guide",
-        href: "/healthcare-navigation-guide",
+        href: "/explore-care",
       },
-      { label: "Safety & emergencies", href: "/safety-emergencies" },
+      { label: "Safety & emergencies", href: "/talk-to-support" },
       { label: "Accessibility", href: "/accessibility" },
-      { label: "Privacy & your information", href: "/privacy-information" },
+      { label: "Privacy & your information", href: "/privacy-permissions" },
       { label: "News & insights", href: "/news-insights" },
     ],
   },
@@ -114,13 +114,13 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
     icon: FlaskConical,
     links: [
       { label: "For laboratories", href: "/for-laboratories" },
-      { label: "Imaging & radiology", href: "/imaging-radiology" },
+      { label: "Imaging & radiology", href: "/lab-imaging-integration" },
       { label: "Diagnostics coordination", href: "/diagnostics-coordination" },
       { label: "Lab & imaging integration", href: "/lab-imaging-integration" },
       { label: "Safety & escalation", href: "/safety-escalation" },
       {
         label: "Clinical results handoffs",
-        href: "/clinical-results-handoffs",
+        href: "/clinicians-results-handoffs",
       },
     ],
   },
@@ -136,20 +136,20 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
       },
       {
         label: "Medication safety & escalation",
-        href: "/medication-safety-escalation",
+        href: "/safety-escalation",
       },
-      { label: "API & integrations", href: "/pharmacy-api-integrations" },
+      { label: "API & integrations", href: "/pharmacy-partnership" },
     ],
   },
   {
     title: "Payers & Insurers",
     icon: CreditCard,
     links: [
-      { label: "For payers & insurers", href: "/for-payers-insurers" },
+      { label: "For payers & insurers", href: "/payers-insurers" },
       { label: "Eligibility & benefits", href: "/eligibility-benefits" },
       { label: "Prior authorizations", href: "/prior-authorizations" },
-      { label: "Claims coordination", href: "/claims-coordination" },
-      { label: "Member access experience", href: "/member-access-experience" },
+      { label: "Claims coordination", href: "/claims-remittance" },
+      { label: "Member access experience", href: "/member-access" },
       { label: "Payer integration", href: "/payer-integrations-governance" },
     ],
   },
@@ -168,7 +168,7 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
       },
       {
         label: "Health systems & regional networks",
-        href: "/health-systems-networks",
+        href: "/hospitals-clinics",
       },
       { label: "Nonprofits & NGOs", href: "/nonprofits-ngos" },
       { label: "Research institutions", href: "/research-institutions" },
@@ -178,10 +178,10 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
     title: "Company",
     icon: Briefcase,
     links: [
-      { label: "Company overview", href: "/company-overview" },
-      { label: "Mission & approach", href: "/mission-approach" },
-      { label: "Leadership & governance", href: "/leadership-governance" },
-      { label: "Privacy & trust center", href: "/privacy-trust-center" },
+      { label: "Company overview", href: "/about-us" },
+      { label: "Mission & approach", href: "/about-us" },
+      { label: "Leadership & governance", href: "/about-us" },
+      { label: "Privacy & trust center", href: "/privacy-permissions" },
       {
         label: "Clinical responsibility",
         href: "/clinical-responsibility",
@@ -193,8 +193,8 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
     title: "Support & Legal",
     icon: ShieldCheck,
     links: [
-      { label: "Help center", href: "/help-center" },
-      { label: "Safety & emergencies", href: "/support-safety-emergencies" },
+      { label: "Help center", href: "/talk-to-support" },
+      { label: "Safety & emergencies", href: "/talk-to-support" },
       { label: "Privacy policy", href: "/privacy-policy" },
       { label: "Terms of use", href: "/terms-of-use" },
       { label: "Cookie notice", href: "/cookie-notice" },
@@ -228,7 +228,7 @@ export const OFFICES = [
 ] as const;
 
 export const HELP_LINKS: readonly FooterLink[] = [
-  { label: "Help", href: "/help-center" },
+  { label: "Help", href: "/talk-to-support" },
   { label: "Privacy", href: "/privacy-policy" },
   { label: "Accessibility", href: "/accessibility" },
 ] as const;

@@ -19,17 +19,17 @@ const topicGroups: TopicGroup[] = [
       {
         title: "For laboratories",
         description: "LIS order and result architecture and responsibilities",
-        href: "#laboratories",
+        href: "/for-laboratories",
       },
       {
         title: "Imaging & radiology",
         description: "RIS/PACS pathways; interpretation stays with partners",
-        href: "#imaging-radiology",
+        href: "/lab-imaging-integration",
       },
       {
         title: "Diagnostics coordination",
         description: "Ordered service, completion and report handoffs",
-        href: "#diagnostics-coordination",
+        href: "/diagnostics-coordination",
       },
     ],
   },
@@ -39,17 +39,17 @@ const topicGroups: TopicGroup[] = [
       {
         title: "For pharmacies",
         description: "Dispensing and service listings where locally allowed",
-        href: "#pharmacies",
+        href: "/for-pharmacies",
       },
       {
         title: "Prescription routing",
         description: "No universal e-prescribing or medicine substitution",
-        href: "#prescription-routing",
+        href: "/prescription-routing",
       },
       {
         title: "Fulfillment & availability",
         description: "Source freshness, provenance and supply restrictions",
-        href: "#fulfillment-availability",
+        href: "/fulfillment-availability",
       },
     ],
   },
@@ -59,17 +59,17 @@ const topicGroups: TopicGroup[] = [
       {
         title: "Lab & Imaging integration",
         description: "Market-governed partner interfaces, as a design concept",
-        href: "#lab-imaging-integration",
+        href: "/lab-imaging-integration",
       },
       {
         title: "Pharmacy partnership",
         description: "Documented partner assessment, not auto-enrollment",
-        href: "#pharmacy-partnership",
+        href: "/pharmacy-partnership",
       },
       {
         title: "Safety & escalation",
         description: "Critical communication and human escalation duties",
-        href: "#safety-escalation",
+        href: "/safety-escalation",
       },
     ],
   },

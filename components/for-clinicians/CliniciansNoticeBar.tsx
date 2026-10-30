@@ -17,7 +17,7 @@ export default function CliniciansNoticeBar() {
               Clinical decisions remain with qualified professionals and authorized
               organizations.{" "}
               <Link
-                href="#clinical-responsibility"
+                href="/clinical-responsibility"
                 className="font-bold underline text-white hover:text-blue-200"
               >
                 Read about clinical responsibility

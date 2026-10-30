@@ -31,7 +31,7 @@ export default function PayersCta() {
             Explore payer capabilities →
           </Link>
           <Link
-            href="/payers-insurers/implementation"
+            href="/implementation-approach"
             className="flex min-h-[46px] items-center justify-center rounded-[10px] border-2 border-solid border-white px-[22px] text-[15px] font-semibold leading-[24px] text-white"
           >
             See the implementation approach

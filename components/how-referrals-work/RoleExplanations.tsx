@@ -7,7 +7,7 @@ const roles = [
     title: "Patients & caregivers",
     description:
       "Learn about requests, permissions, and appropriate next-step expectations. This is separate from a live patient referral workflow.",
-    link: { text: "Patient information →", href: "#" },
+    link: { text: "Patient information →", href: "/for-patients" },
     image: {
       src: "/how-referrals-work/role-patients.webp",
       alt: "Caregiver going through information with an older woman",
@@ -30,7 +30,7 @@ const roles = [
     title: "Hospitals & clinics",
     description:
       "Understand institutional coordination principles without a claim of deployed referral integrations.",
-    link: { text: "Institutional overview →", href: "#" },
+    link: { text: "Institutional overview →", href: "/hospitals-clinics" },
     image: {
       src: "/how-referrals-work/role-hospitals.webp",
       alt: "Hospital staff meeting around a coordination screen",

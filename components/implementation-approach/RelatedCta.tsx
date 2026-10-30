@@ -6,11 +6,11 @@ const topics = [
   { title: "Prior Authorizations", href: "/prior-authorizations", image: pic("authorization-review"), alt: "Clinician in a white coat using a phone" },
   {
     title: "Claims & Remittance Coordination",
-    href: "/claims-coordination",
+    href: "/claims-remittance",
     image: pic("claims-documents"),
     alt: "Financial forms and a calculator on a desk",
   },
-  { title: "Member Access Experience", href: "/member-access-experience", image: pic("family-at-home"), alt: "Family holding hands on a beach at sunset" },
+  { title: "Member Access Experience", href: "/member-access", image: pic("family-at-home"), alt: "Family holding hands on a beach at sunset" },
   {
     title: "Payer Integrations & Governance",
     href: "/payer-integrations-governance",

@@ -21,21 +21,21 @@ const useCases = [
     text: "Status coordination — never settlement.",
     image: pic("financial-documents-and-calculator"),
     alt: "Financial forms and a calculator on a desk",
-    href: "/claims-coordination",
+    href: "/claims-remittance",
   },
   {
     title: "Member access experience",
     text: "Permission-bound member journeys.",
     image: pic("member-using-a-laptop"),
     alt: "Person pointing at a laptop screen",
-    href: "/member-access-experience",
+    href: "/member-access",
   },
   {
     title: "Governance & partner assessment",
     text: "Evidence required before any deployment.",
     image: pic("team-assessing-documents"),
     alt: "Colleagues reviewing notes beside laptops",
-    href: "/become-a-payer-partner",
+    href: "/become-partner",
   },
 ];
 

@@ -18,7 +18,7 @@ const destinations: {
   },
   {
     title: "Imaging & radiology",
-    href: "/imaging-radiology",
+    href: "/lab-imaging-integration",
     src: "related-imaging",
     alt: "A stormy sky over the sea",
   },

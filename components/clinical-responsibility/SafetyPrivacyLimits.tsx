@@ -30,7 +30,7 @@ const cardsData = [
       "Capabilities vary by country, participating organization and service readiness. A public explanation does not confirm that an operational pathway is active in your location.",
     bgColor: "bg-white",
     linkText: "Preview care location",
-    linkHref: "#",
+    linkHref: "/locations-availability",
   },
 ];
 

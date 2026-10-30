@@ -13,7 +13,7 @@ const content = {
         "Zoiko Access is not an emergency response service. For urgent medical attention, use appropriate local emergency services.",
       button: {
         text: "Clinical responsibility",
-        href: "#",
+        href: "/clinical-responsibility",
       },
     },
     {
@@ -24,7 +24,7 @@ const content = {
       ],
       button: {
         text: "Privacy & inclusive access",
-        href: "#",
+        href: "/privacy-permissions",
       },
     },
   ],

@@ -13,7 +13,7 @@ const ROLES = [
     description:
       "Understand published options before choosing a nextstep. No account or medical details are needed to read this guide.",
     linkText: "For patients →",
-    href: "#",
+    href: "/for-patients",
   },
   {
     image: "/how-it-works/role-caregiver.png",
@@ -22,7 +22,7 @@ const ROLES = [
     description:
       "Learn about appropriate permissions and representation before acting as a caregiver or guardian.",
     linkText: "For caregivers →",
-    href: "#",
+    href: "/for-caregivers",
   },
   {
     image: "/how-it-works/role-healthcare.png",
@@ -31,7 +31,7 @@ const ROLES = [
     description:
       "Explore role-specific responsibilities and the boundaries of authorized institutional coordination.",
     linkText: "For healthcare organizations →",
-    href: "#",
+    href: "/hospitals-clinics",
   },
   {
     image: "/how-it-works/role-local.png",
@@ -40,7 +40,7 @@ const ROLES = [
     description:
       "Review what a care location means. Availability needs current market and service evidence.",
     linkText: "Understand local context →",
-    href: "#",
+    href: "/locations-availability",
   },
 ] as const;
 

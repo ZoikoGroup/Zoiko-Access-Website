@@ -65,7 +65,7 @@ export default function Readiness() {
             ))}
           </ol>
           <Link
-            href="/payers-insurers/implementation"
+            href="/implementation-approach"
             className="flex min-h-[46px] items-center justify-center rounded-[10px] border-2 border-solid border-[#e3e8f2] bg-white px-[22px] py-3 text-[15px] font-semibold leading-[24px] text-[#243b73]"
           >
             Read the implementation approach →

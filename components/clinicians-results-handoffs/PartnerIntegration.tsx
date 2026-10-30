@@ -83,7 +83,7 @@ export default function PartnerIntegration() {
           </p>
 
           <Link
-            href="#partner-overview"
+            href="/become-partner"
             className="inline-flex items-center justify-center rounded-xl border border-white/30 bg-white/10 px-5 py-2.5 text-[13px] font-semibold text-white shadow-xs backdrop-blur-sm transition hover:bg-white/20 self-start sm:self-auto"
           >
             See the partner &amp; developer overview

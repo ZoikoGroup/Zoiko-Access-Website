@@ -6,7 +6,7 @@ const content = {
   description:
     "Explore how a governed healthcare coordination approach could fit your organization's requirements.",
   buttonText: "Explore Clinicians",
-  buttonHref: "#",
+  buttonHref: "/for-clinicians",
 };
 
 export default function DiscussClinicalCoordinationCta() {

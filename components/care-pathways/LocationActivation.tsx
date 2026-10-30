@@ -47,7 +47,7 @@ export default function LocationActivation() {
           </div>
 
           <Link
-            href="#"
+            href="/locations-availability"
             className="mt-6 inline-flex items-center gap-2 rounded-lg border border-[#C9D3F2] bg-white px-5 py-3.5 text-[14px] font-semibold text-[#2F55C7] transition-colors hover:bg-[#F7F8FF]"
           >
             Explore availability principles

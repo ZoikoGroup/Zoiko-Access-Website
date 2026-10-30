@@ -10,7 +10,7 @@ const cardsData = [
     description:
       "A referral submitted or acknowledged is not automatically accepted. A provider determines whether and when a referral is clinically accepted, with the next action and responsible organization made clear where integrations support that status.",
     buttonText: "Explore referral coordination",
-    buttonHref: "#",
+    buttonHref: "/referral-coordination",
   },
   {
     image: "/cli/10.png",
@@ -20,7 +20,7 @@ const cardsData = [
     description:
       "A laboratory or diagnostic source may publish a result; transmission does not prove it has been clinically reviewed. The appropriate healthcare organization retains responsibility for interpretation and follow-up.",
     buttonText: "Explore results and review handoffs",
-    buttonHref: "#",
+    buttonHref: "/clinicians-results-handoffs",
   },
 ];
 

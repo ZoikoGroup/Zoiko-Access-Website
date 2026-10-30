@@ -7,37 +7,37 @@ const pathwaysData = [
     image: "/cli/14.png",
     alt: "Medical equipment, pills, and stethoscope",
     title: "Referral Coordination",
-    href: "#",
+    href: "/referral-coordination",
   },
   {
     image: "/cli/15.png",
     alt: "Hospital building representing care transitions and follow-up",
     title: "Care Transitions & Follow-Up",
-    href: "#",
+    href: "/care-transitions",
   },
   {
     image: "/cli/16.png",
     alt: "X-ray hand image representing task & worklist experience",
     title: "Task & Worklist Experience",
-    href: "#",
+    href: "/task-worklist-experience",
   },
   {
     image: "/cli/17.png",
     alt: "Medications, thermometer, and face mask on yellow background",
     title: "Results & Review Handoffs",
-    href: "#",
+    href: "/clinicians-results-handoffs",
   },
   {
     image: "/cli/18.png",
     alt: "Modern clinic reception and desk area representing secure communication",
     title: "Secure Communication",
-    href: "#",
+    href: "/secure-communication",
   },
   {
     image: "/cli/19.png",
     alt: "Black and white stethoscope representing professional onboarding",
     title: "Professional Onboarding",
-    href: "#",
+    href: "/professional-onboarding",
   },
 ];
 

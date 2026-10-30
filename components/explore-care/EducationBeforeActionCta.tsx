@@ -9,11 +9,11 @@ const content = {
   buttons: {
     primary: {
       text: "Learn how Zoiko Access works",
-      href: "#",
+      href: "/how-it-works",
     },
     secondary: {
       text: "For healthcare organizations",
-      href: "#",
+      href: "/hospitals-clinics",
     },
   },
   footerNote:

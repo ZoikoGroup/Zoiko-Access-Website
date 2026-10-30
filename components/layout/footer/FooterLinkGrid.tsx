@@ -30,7 +30,7 @@ export default function FooterLinkGrid() {
                 </h3>
                 <ul className="mt-7 flex flex-col">
                   {group.links.map((link) => (
-                    <li key={link.href}>
+                    <li key={link.label}>
                       <Link
                         href={link.href}
                         className="group flex items-center justify-between py-3 text-[15px] text-[#4B5563] transition-colors hover:text-[#4267D5]"

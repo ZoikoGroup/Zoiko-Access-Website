@@ -4,7 +4,7 @@ import { Eyebrow, Head, Photo, Title, card, darkBg, fontPoppins, glow, inner, ph
 const pathways = [
   { title: "Eligibility & Benefits", href: "/eligibility-benefits", image: pic("eligibility-information"), alt: "Laptop showing a data dashboard" },
   { title: "Prior Authorizations", href: "/prior-authorizations", image: pic("authorization-review"), alt: "Clinician in a white coat using a phone" },
-  { title: "Member Access Experience", href: "/member-access-experience", image: pic("family-at-home"), alt: "Family holding hands on a beach at sunset" },
+  { title: "Member Access Experience", href: "/member-access", image: pic("family-at-home"), alt: "Family holding hands on a beach at sunset" },
   {
     title: "Payer Integrations & Governance",
     href: "/payer-integrations-governance",
