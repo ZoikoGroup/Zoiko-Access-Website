@@ -139,13 +139,13 @@ export const MENU: readonly MenuItem[] = [
     imageAlt: "Two colleagues talking in a clinic waiting area",
     columns: [
       [
-        l("Clinical coordination", Network, "/for-clinicians"),
+        l("Clinical coordination", Network, "/clinical-coordination"),
         l("For clinicians", Stethoscope, "/for-clinicians"),
         l("Referral coordination", ArrowRight, "/referral-coordination"),
         l("Care transitions", ArrowLeftRight, "/care-transitions"),
       ],
       [
-        l("Clinical workflows", Network, "/task-worklist-experience"),
+        l("Clinical workflows", Network, "/clinical-workflows"),
         l("Tasks & worklists", ListChecks, "/task-worklist-experience"),
         l("Results & review", BarChart3, "/clinicians-results-handoffs"),
         l("Secure communication", MessageSquare, "/secure-communication"),
