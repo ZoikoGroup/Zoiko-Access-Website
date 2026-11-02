@@ -124,10 +124,10 @@ export const MENU: readonly MenuItem[] = [
         l("Messages & notifications", Bell, "/patients-messages"),
       ],
       [
-        l("Your information", Contact, "/privacy-permissions"),
+        l("Your information", Contact, "/our-information"),
         l("Privacy & permissions", Lock, "/privacy-permissions"),
         l("Health information", FileText, "/privacy-permissions"),
-        l("Accessible help", Accessibility, "/talk-to-support"),
+        l("Accessible help", Accessibility, "/accessible-help"),
       ],
     ],
   },
@@ -139,13 +139,13 @@ export const MENU: readonly MenuItem[] = [
     imageAlt: "Two colleagues talking in a clinic waiting area",
     columns: [
       [
-        l("Clinical coordination", Network, "/for-clinicians"),
+        l("Clinical coordination", Network, "/clinical-coordination"),
         l("For clinicians", Stethoscope, "/for-clinicians"),
         l("Referral coordination", ArrowRight, "/referral-coordination"),
         l("Care transitions", ArrowLeftRight, "/care-transitions"),
       ],
       [
-        l("Clinical workflows", Network, "/task-worklist-experience"),
+        l("Clinical workflows", Network, "/clinical-workflows"),
         l("Tasks & worklists", ListChecks, "/task-worklist-experience"),
         l("Results & review", BarChart3, "/clinicians-results-handoffs"),
         l("Secure communication", MessageSquare, "/secure-communication"),

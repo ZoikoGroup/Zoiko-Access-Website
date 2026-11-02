@@ -1,0 +1,10 @@
+export { default as YourInformationHero } from "./YourInformationHero";
+export { default as ThreeThingsToUnderstand } from "./ThreeThingsToUnderstand";
+export { default as YoureAtTheCenter } from "./YoureAtTheCenter";
+export { default as MedicalRecordPrincipleBanner } from "./MedicalRecordPrincipleBanner";
+export { default as FivePermissionsExplained } from "./FivePermissionsExplained";
+export { default as HowControlCouldLook } from "./HowControlCouldLook";
+export { default as WhatReadingDoesntDo } from "./WhatReadingDoesntDo";
+export { default as RulesDependOnLocation } from "./RulesDependOnLocation";
+export { default as PlainAnswersYourInformation } from "./PlainAnswersYourInformation";
+export { default as KeepReading } from "./KeepReading";
