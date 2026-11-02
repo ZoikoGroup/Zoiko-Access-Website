@@ -124,10 +124,10 @@ export const MENU: readonly MenuItem[] = [
         l("Messages & notifications", Bell, "/patients-messages"),
       ],
       [
-        l("Your information", Contact, "/privacy-permissions"),
+        l("Your information", Contact, "/our-information"),
         l("Privacy & permissions", Lock, "/privacy-permissions"),
         l("Health information", FileText, "/privacy-permissions"),
-        l("Accessible help", Accessibility, "/talk-to-support"),
+        l("Accessible help", Accessibility, "/accessible-help"),
       ],
     ],
   },
