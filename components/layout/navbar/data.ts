@@ -118,7 +118,7 @@ export const MENU: readonly MenuItem[] = [
         l("Create a patient account", UserPlus, "/create-patient-account"),
       ],
       [
-        l("Manage your journey", Route, "/appointments-requests"),
+        l("Manage your journey", Route, "/manage-your-journey"),
         l("Appointments & requests", CalendarDays, "/appointments-requests"),
         l("Referrals & next steps", ArrowRight, "/referrals-next-steps"),
         l("Messages & notifications", Bell, "/patients-messages"),
@@ -126,7 +126,7 @@ export const MENU: readonly MenuItem[] = [
       [
         l("Your information", Contact, "/our-information"),
         l("Privacy & permissions", Lock, "/privacy-permissions"),
-        l("Health information", FileText, "/privacy-permissions"),
+        l("Health information", FileText, "/health-information-access"),
         l("Accessible help", Accessibility, "/accessible-help"),
       ],
     ],
