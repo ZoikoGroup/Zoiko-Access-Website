@@ -1,0 +1,10 @@
+export { default as JourneyHero } from "./JourneyHero";
+export { default as OneStatusLanguage } from "./OneStatusLanguage";
+export { default as JourneyParts } from "./JourneyParts";
+export { default as ThreeLayers } from "./ThreeLayers";
+export { default as StatusVocabulary } from "./StatusVocabulary";
+export { default as YouDecideWhoSees } from "./YouDecideWhoSees";
+export { default as RegionalAvailability } from "./RegionalAvailability";
+export { default as RisksSafeguards } from "./RisksSafeguards";
+export { default as JourneyFaq } from "./JourneyFaq";
+export { default as StartWithUnderstanding } from "./StartWithUnderstanding";
