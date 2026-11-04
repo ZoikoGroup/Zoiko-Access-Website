@@ -85,9 +85,9 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
     title: "Partners & Developers",
     icon: Code2,
     links: [
-      { label: "Technology partners", href: "/become-partner" },
+      { label: "Technology partners", href: "/technology-partners" },
       { label: "Health-system vendors", href: "/become-partner" },
-      { label: "API & interoperability", href: "/ehr-interoperability" },
+      { label: "API & interoperability", href: "/api-interoperability" },
       { label: "SDKs, webhooks & events", href: "/ehr-interoperability" },
       { label: "Integration security", href: "/integration-security" },
       { label: "Certification framework", href: "/certification-framework" },
