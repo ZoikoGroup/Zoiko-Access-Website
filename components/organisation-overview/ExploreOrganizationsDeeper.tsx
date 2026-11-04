@@ -30,19 +30,19 @@ const deepExplorerData = [
     image: "/org/9.png",
     alt: "Exterior view of modern healthcare facility representing Health systems & regional networks",
     title: "Health systems & regional networks",
-    href: "/health-networks",
+    href: "/health-systems-regional-networks",
   },
   {
     image: "/org/26.png",
     alt: "Healthcare worker administering care representing Care programs",
     title: "Care programs",
-    href: "/care-programs",
+    href: "/care-programs-population",
   },
   {
     image: "/org/10.png",
     alt: "Laboratory test tubes representing Research institutions",
     title: "Research institutions",
-    href: "/research",
+    href: "/research-institutions",
   },
   {
     image: "/org/25.png",

@@ -265,9 +265,9 @@ export const MENU: readonly MenuItem[] = [
         l(
           "Health systems & regional networks",
           Hospital,
-          "/hospitals-clinics",
+          "/health-systems-regional-networks",
         ),
-        l("Care programs & policy", ClipboardList, "/care-programs-policy"),
+        l("Care programs & policy", ClipboardList, "/care-programs-population"),
       ],
       [
         l("Research & programs", FlaskConical, "/research-programs"),
