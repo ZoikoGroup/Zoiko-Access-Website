@@ -86,7 +86,7 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
     icon: Code2,
     links: [
       { label: "Technology partners", href: "/become-partner" },
-      { label: "Health-system vendors", href: "/become-partner" },
+      { label: "Health-system vendors", href: "/health-system-vendors" },
       { label: "API & interoperability", href: "/ehr-interoperability" },
       { label: "SDKs, webhooks & events", href: "/ehr-interoperability" },
       { label: "Integration security", href: "/integration-security" },

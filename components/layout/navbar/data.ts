@@ -287,7 +287,7 @@ export const MENU: readonly MenuItem[] = [
       [
         l("Partner ecosystem", Network, "/become-partner"),
         l("Technology partners", Cpu, "/become-partner"),
-        l("Health system vendors", Hospital, "/become-partner"),
+        l("Health system vendors", Hospital, "/health-system-vendors"),
         l("System integrators", Plug, "/become-partner"),
       ],
       [
