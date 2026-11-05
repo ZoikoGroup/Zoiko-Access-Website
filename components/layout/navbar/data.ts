@@ -286,13 +286,13 @@ export const MENU: readonly MenuItem[] = [
     columns: [
       [
         l("Partner ecosystem", Network, "/become-partner"),
-        l("Technology partners", Cpu, "/become-partner"),
-        l("Health system vendors", Hospital, "/health-system-vendors"),
+        l("Technology partners", Cpu, "/technology-partners"),
+        l("Health system vendors", Hospital, "/become-partner"),
         l("System integrators", Plug, "/become-partner"),
       ],
       [
         l("Build & connect", Code2, "/ehr-interoperability"),
-        l("API & interoperability", Code2, "/ehr-interoperability"),
+        l("API & interoperability", Code2, "/api-interoperability"),
         l("SDKs, webhooks & events", Network, "/ehr-interoperability"),
         l("Integration security", Shield, "/integration-security"),
       ],
