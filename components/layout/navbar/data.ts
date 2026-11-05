@@ -172,7 +172,7 @@ export const MENU: readonly MenuItem[] = [
         l("Outpatient services", User, "/outpatient-specialist-services"),
       ],
       [
-        l("Care operations", ClipboardList, "/scheduling-patient-access"),
+        l("Care operations", ClipboardList, "/care-operations"),
         l("Scheduling", CalendarDays, "/scheduling-patient-access"),
         l("Referral intake & routing", ArrowRight, "/referral-intake-routing"),
         l("Discharge & transitions", ArrowLeftRight, "/discharge-transition-support"),
