@@ -293,12 +293,12 @@ export const MENU: readonly MenuItem[] = [
       [
         l("Build & connect", Code2, "/ehr-interoperability"),
         l("API & interoperability", Code2, "/api-interoperability"),
-        l("SDKs, webhooks & events", Network, "/ehr-interoperability"),
-        l("Integration security", Shield, "/integration-security"),
+        l("SDKs, webhooks & events", Network, "/partners-sdks-webhooks-events"),
+        l("Integration security", Shield, "/partners-integration-security"),
       ],
       [
         l("Partner onboarding", UserPlus, "/become-partner"),
-        l("Certification framework", Award, "/certification-framework"),
+        l("Certification framework", Award, "/partners-certification-framework"),
         l("Developer documentation", BookOpen, "/developer-docs"),
         l("Become a partner", Handshake, "/become-partner"),
       ],
