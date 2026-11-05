@@ -13,13 +13,13 @@ const relatedSubjectsData: RelatedSubject[] = [
     title: "Health System Vendors",
     description: "Vendor roles and limits",
     imageSrc: "/api/6.png",
-    href: "/health-system-vendors",
+    href: "/partners-health-system-vendors",
   },
   {
     title: "System Integrators",
     description: "Integrator responsibilities",
     imageSrc: "/api/7.png",
-    href: "/system-integrators",
+    href: "/partners-system-integrators",
   },
   {
     title: "Technology Partners",

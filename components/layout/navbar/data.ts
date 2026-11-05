@@ -261,18 +261,18 @@ export const MENU: readonly MenuItem[] = [
       ],
       [
         l("Public systems", Landmark, "/public-systems"),
-        l("Government & public health", Landmark, "/government-public-health"),
+        l("Government & public health", Landmark, "/organizations-government-public-health"),
         l(
           "Health systems & regional networks",
           Hospital,
-          "/health-systems-regional-networks",
+          "/organizations-health-systems-regional-networks",
         ),
-        l("Care programs & policy", ClipboardList, "/care-programs-population"),
+        l("Care programs & policy", ClipboardList, "/organizations-care-programs-population"),
       ],
       [
         l("Research & programs", FlaskConical, "/research-programs"),
-        l("Research institutions", GraduationCap, "/research-institutions"),
-        l("Program implementation", Network, "/program-implementation"),
+        l("Research institutions", GraduationCap, "/organizations-research-institutions"),
+        l("Program implementation", Network, "/organizations-program-implementation"),
         l("Discuss a program", MessageCircle, "/institutional-team"),
       ],
     ],
@@ -287,8 +287,8 @@ export const MENU: readonly MenuItem[] = [
       [
         l("Partner ecosystem", Network, "/become-partner"),
         l("Technology partners", Cpu, "/technology-partners"),
-        l("Health system vendors", Hospital, "/become-partner"),
-        l("System integrators", Plug, "/become-partner"),
+        l("Health system vendors", Hospital, "/partners-health-system-vendors"),
+        l("System integrators", Plug, "/partners-system-integrators"),
       ],
       [
         l("Build & connect", Code2, "/ehr-interoperability"),

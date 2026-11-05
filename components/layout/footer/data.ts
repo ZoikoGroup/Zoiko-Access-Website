@@ -86,7 +86,8 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
     icon: Code2,
     links: [
       { label: "Technology partners", href: "/technology-partners" },
-      { label: "Health-system vendors", href: "/become-partner" },
+      { label: "Health-system vendors", href: "/partners-health-system-vendors" },
+      { label: "System integrators", href: "/partners-system-integrators" },
       { label: "API & interoperability", href: "/api-interoperability" },
       { label: "SDKs, webhooks & events", href: "/ehr-interoperability" },
       { label: "Integration security", href: "/integration-security" },
@@ -164,14 +165,14 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
       { label: "Community & home care", href: "/community-home-care" },
       {
         label: "Government & public health",
-        href: "/government-public-health",
+        href: "/organizations-government-public-health",
       },
       {
         label: "Health systems & regional networks",
         href: "/hospitals-clinics",
       },
       { label: "Nonprofits & NGOs", href: "/nonprofits-ngos" },
-      { label: "Research institutions", href: "/research-institutions" },
+      { label: "Research institutions", href: "/organizations-research-institutions" },
     ],
   },
   {
