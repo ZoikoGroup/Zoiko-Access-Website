@@ -89,9 +89,9 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
       { label: "Health-system vendors", href: "/partners-health-system-vendors" },
       { label: "System integrators", href: "/partners-system-integrators" },
       { label: "API & interoperability", href: "/api-interoperability" },
-      { label: "SDKs, webhooks & events", href: "/ehr-interoperability" },
-      { label: "Integration security", href: "/integration-security" },
-      { label: "Certification framework", href: "/certification-framework" },
+      { label: "SDKs, webhooks & events", href: "/partners-sdks-webhooks-events" },
+      { label: "Integration security", href: "/partners-integration-security" },
+      { label: "Certification framework", href: "/partners-certification-framework" },
     ],
   },
   {
