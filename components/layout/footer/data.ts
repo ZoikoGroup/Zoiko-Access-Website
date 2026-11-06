@@ -78,6 +78,7 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
       },
       { label: "Referral intake & routing", href: "/referral-intake-routing" },
       { label: "Care transitions", href: "/care-transitions" },
+      { label: "Technology & adoption", href: "/clinics-technology-adoption" },
       { label: "EHR interoperability", href: "/ehr-interoperability" },
     ],
   },
