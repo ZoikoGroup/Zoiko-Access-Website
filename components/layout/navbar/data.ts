@@ -178,7 +178,7 @@ export const MENU: readonly MenuItem[] = [
         l("Discharge & transitions", ArrowLeftRight, "/discharge-transition-support"),
       ],
       [
-        l("Technology & adoption", Cpu, "/ehr-interoperability"),
+        l("Technology & adoption", Cpu, "/clinics-technology-adoption"),
         l("EHR interoperability", Network, "/ehr-interoperability"),
         l("Enterprise onboarding", Briefcase, "/enterprise-onboarding"),
         l(
