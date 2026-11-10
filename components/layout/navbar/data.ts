@@ -285,7 +285,7 @@ export const MENU: readonly MenuItem[] = [
     imageAlt: "Two smiling colleagues reviewing a tablet together",
     columns: [
       [
-        l("Partner ecosystem", Network, "/become-partner"),
+        l("Partner ecosystem", Network, "/partners-group-partner-ecosystem"),
         l("Technology partners", Cpu, "/technology-partners"),
         l("Health system vendors", Hospital, "/partners-health-system-vendors"),
         l("System integrators", Plug, "/partners-system-integrators"),
