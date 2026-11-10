@@ -80,14 +80,23 @@ export default function MobileNav({ onNavigate }: Props) {
           <Globe className="h-4 w-4 text-[#6D4AD8]" aria-hidden="true" />
           English
         </button>
-        <Link
-          href="/how-it-works"
-          onClick={onNavigate}
-          className="inline-flex w-fit items-center gap-2 rounded-md bg-[#4267D5] px-6 py-3 text-[14px] font-semibold text-white"
-        >
-          How it works
-          <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
-        </Link>
+        <div className="flex flex-wrap gap-3">
+          <Link
+            href="/login"
+            onClick={onNavigate}
+            className="inline-flex items-center rounded-lg border border-[#2F5BD3] px-6 py-3 text-[14px] font-semibold text-[#2F5BD3]"
+          >
+            Login
+          </Link>
+          <Link
+            href="/how-it-works"
+            onClick={onNavigate}
+            className="inline-flex items-center gap-2 rounded-lg bg-[#4267D5] px-6 py-3 text-[14px] font-semibold text-white"
+          >
+            How it works
+            <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
+          </Link>
+        </div>
       </div>
     </div>
   );

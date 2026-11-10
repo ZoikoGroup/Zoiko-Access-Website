@@ -24,8 +24,15 @@ export default function TopBar() {
       </button>
 
       <Link
+        href="/login"
+        className="inline-flex items-center rounded-lg border border-[#2F5BD3] px-6 py-3 text-[13px] font-semibold text-[#2F5BD3] transition-colors hover:bg-[#F1F5FF]"
+      >
+        Login
+      </Link>
+
+      <Link
         href="/how-it-works"
-        className="inline-flex items-center gap-2 rounded-md bg-[#4267D5] px-6 py-3 text-[13px] font-semibold text-white transition-opacity hover:opacity-90"
+        className="inline-flex items-center gap-2 rounded-lg bg-[#4267D5] px-6 py-3 text-[13px] font-semibold text-white transition-opacity hover:opacity-90"
       >
         How it works
         <ArrowUpRight className="h-3.5 w-3.5" aria-hidden="true" />
