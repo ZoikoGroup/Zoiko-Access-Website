@@ -313,12 +313,12 @@ export const MENU: readonly MenuItem[] = [
     columns: [
       [
         l("Get answers", HelpCircle, "/talk-to-support"),
-        l("Help center", Headphones, "/talk-to-support"),
+        l("Help center", Headphones, "/help-center"),
         l("Frequently asked questions", HelpCircle, "/faqs"),
         l(
           "Healthcare navigation guide",
           Compass,
-          "/explore-care",
+          "/navigation-guide",
         ),
       ],
       [

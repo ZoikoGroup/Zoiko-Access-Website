@@ -103,7 +103,7 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
       { label: "FAQs", href: "/faqs" },
       {
         label: "Healthcare navigation guide",
-        href: "/explore-care",
+        href: "/navigation-guide",
       },
       { label: "Safety & emergencies", href: "/talk-to-support" },
       { label: "Accessibility", href: "/accessibility" },
@@ -195,7 +195,7 @@ export const FOOTER_GROUPS: readonly FooterGroup[] = [
     title: "Support & Legal",
     icon: ShieldCheck,
     links: [
-      { label: "Help center", href: "/talk-to-support" },
+      { label: "Help center", href: "/help-center" },
       { label: "Safety & emergencies", href: "/talk-to-support" },
       { label: "Privacy policy", href: "/privacy-policy" },
       { label: "Terms of use", href: "/terms-of-use" },
